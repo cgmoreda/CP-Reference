@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometry/_Status.md",
+                "file": "Geometry/GeoReda/Basic Funcs.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometry/_Status.md",
+                "file": "Geometry/GeoReda/Basic Funcs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometry/_Status.md",
+                "file": "Geometry/GeoReda/Basic Funcs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometry/_Status.md"
+                "file": "Geometry/GeoReda/Basic Funcs.md"
               }
             }
           }
@@ -197,9 +197,19 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Geometry/GeoReda/Squares.md",
+    "Geometry/GeoReda/Lattice Points.md",
+    "Geometry/GeoReda/Basic Funcs.md",
+    "Geometry/GeoReda/CircleCenter.md",
+    "Geometry/GeoReda/SomeRules.md",
+    "Geometry/GeoReda/Untitled",
+    "Geometry/GeoReda/Areas.md",
+    "Geometry/GeoReda/_1_Defines and Point.md",
+    "Geometry/GeoReda",
+    "Math/Sum x to the i.md",
+    "Data Structures/LCA queries O(1).md",
     "Graph/_Status.md",
     "Geometry/_Status.md",
-    "Math/Sum x to the i.md",
     "Other/CheckTime.md",
     "Other/Base Conversion.md",
     "Other/CompareFunction for ds.md",
@@ -216,21 +226,12 @@
     "Strings/Aho Corasick.md",
     "Math/_Status.md",
     "Math/SumRangeDivisors.md",
-    "Math/Sum Sequence.md",
-    "Math/Phi.md",
-    "Math/NCR Preprocessing.md",
-    "Math/Mobius Function.md",
-    "Math/Linear Diophantine Equation, CRT.md",
-    "Data Structures/LCA.md",
-    "Data Structures/LCA queries O(1).md",
-    "Data Structures/Mo's Algorithm.md",
     "Data Structures/Segment Tree",
     "Other",
     "Graph",
     "Flows",
     "Math",
     "Data Structures",
-    "Geometry",
-    "Strings"
+    "Geometry"
   ]
 }
