@@ -6,7 +6,7 @@ Treap:: tested reverse on 1 problem
 
 Fenwick :: Tested
 
-LCA  with query o(1) :: 
+LCA  with query o(1) :: Added
 
 MO :: Not Tested
 

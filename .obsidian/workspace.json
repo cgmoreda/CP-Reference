@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Mo's Algorithm.md",
+                "file": "Math/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Mo's Algorithm.md",
+                "file": "Math/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Mo's Algorithm.md",
+                "file": "Math/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Mo's Algorithm.md"
+                "file": "Math/_Status.md"
               }
             }
           }
@@ -197,20 +197,32 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "Strings/Status.md",
-    "Strings/KMP.md",
+    "Data Structures/Status.md",
+    "Math/Sum Sequence.md",
+    "Math/SumRangeDivisors.md",
+    "Math/NCR Preprocessing.md",
+    "Math/_Status.md",
+    "Data Structures/LCA queries O(1).md",
+    "Data Structures/LCA.md",
     "To add.md",
+    "Math/Phi.md",
+    "Math/Mobius Function.md",
+    "Math/Linear Diophantine Equation, CRT.md",
+    "Math/Matrix power.md",
+    "[.md",
+    "Strings/Aho Corasick.md",
+    "Strings/_Status.md",
+    "Strings/Suffix Array Faster.md",
+    "Strings/Suffix Array.md",
+    "Strings/Suffix Automation.md",
+    "Data Structures/Treap.md",
+    "Data Structures/Mo's Algorithm.md",
+    "Data Structures/Segment Tree/segment with lazy.md",
+    "Data Structures/Ordered Set.md",
+    "Strings/KMP.md",
     "Template.md",
     "Silence Vault.md",
     "Strings/Hashing.md",
-    "Data Structures/Treap.md",
-    "Data Structures/Status.md",
-    "Data Structures/Mo's Algorithm.md",
-    "Data Structures/Segment Tree/segment with lazy.md",
-    "Data Structures/Fenwick.md",
-    "Math/Matrix power.md",
-    "Flows/MaxBipartiteMatching.md",
-    "Data Structures/Ordered Set.md",
     "Data Structures/Segment Tree",
     "Other",
     "Graph",

@@ -8,10 +8,10 @@ Hashing:: Tested before
 
 Trie:: 
 
-Suffix Array:: 
+Suffix Array:: Done
 
 Suffix Automation:: 
 
-Aho-Corasick::
+Aho-Corasick::Done
 
 Manacher:: 
