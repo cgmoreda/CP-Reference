@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph/SMST O(nlog(n)).md",
+                "file": "Graph/DSU.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph/SMST O(nlog(n)).md",
+                "file": "Graph/DSU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph/SMST O(nlog(n)).md",
+                "file": "Graph/DSU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph/SMST O(nlog(n)).md"
+                "file": "Graph/DSU.md"
               }
             }
           }
@@ -197,8 +197,15 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "Flows/Bellmanford.md",
     "Graph/SMST O(nlog(n)).md",
+    "Graph/DSU.md",
+    "Flows/MCMF.md",
+    "Flows/Max Bipartite Matching.md",
+    "Flows/Hungarian.md",
+    "Flows/Euler tour.md",
+    "Flows/Edmonds Karb.md",
+    "Flows/Dinic.md",
+    "Flows/Bellmanford.md",
     "Other/VectorHasher.md",
     "Other/Random.md",
     "Other/CompareFunction for ds.md",
@@ -212,12 +219,6 @@
     "Geometry",
     "Bits/__BuiltIn_functions().md",
     "Bits",
-    "Flows/Hungarian.md",
-    "Flows/Edmonds Karb.md",
-    "Flows/MCMF.md",
-    "Flows/Max Bipartite Matching.md",
-    "Flows/Euler tour.md",
-    "Flows/Dinic.md",
     "Math/_Status.md",
     "New Text Document.txt",
     "Data Structures/Status.md",
@@ -227,7 +228,6 @@
     "Data Structures/LCA queries O(1).md",
     "Data Structures/LCA.md",
     "To add.md",
-    "Math/Phi.md",
     "Data Structures/Segment Tree",
     "Flows",
     "Math",
