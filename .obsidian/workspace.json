@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flows/MaxBipartiteMatching.md",
+                "file": "Flows/Max Bipartite Matching.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/_Status.md",
+                "file": "Flows/Bellmanford.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/_Status.md",
+                "file": "Flows/Bellmanford.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/_Status.md",
+                "file": "Flows/Bellmanford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/_Status.md"
+                "file": "Flows/Bellmanford.md"
               }
             }
           }
@@ -197,12 +197,19 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Flows/Hungarian.md",
+    "Flows/Bellmanford.md",
+    "Flows/Edmonds Karb.md",
+    "Flows/MCMF.md",
+    "Flows/Max Bipartite Matching.md",
+    "Flows/Euler tour.md",
+    "Flows/Dinic.md",
+    "Math/_Status.md",
     "New Text Document.txt",
     "Data Structures/Status.md",
     "Math/Sum Sequence.md",
     "Math/SumRangeDivisors.md",
     "Math/NCR Preprocessing.md",
-    "Math/_Status.md",
     "Data Structures/LCA queries O(1).md",
     "Data Structures/LCA.md",
     "To add.md",
@@ -217,12 +224,6 @@
     "Strings/Suffix Array.md",
     "Strings/Suffix Automation.md",
     "Data Structures/Treap.md",
-    "Data Structures/Mo's Algorithm.md",
-    "Data Structures/Segment Tree/segment with lazy.md",
-    "Data Structures/Ordered Set.md",
-    "Strings/KMP.md",
-    "Template.md",
-    "Silence Vault.md",
     "Data Structures/Segment Tree",
     "Other",
     "Graph",
