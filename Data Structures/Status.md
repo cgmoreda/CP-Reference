@@ -1,0 +1,27 @@
+Ordered set :: DONE
+
+Segment Tree :: Tested
+
+Treap:: tested reverse on 1 problem
+
+Fenwick :: Tested
+
+LCA  with query o(1) :: 
+
+MO :: Not Tested
+
+DSU::
+
+DSU with rollback technique
+
+SqrtDecomp::
+
+TwoSat
+
+Monotonic Queue
+
+Centroid Decomp
+
+Sparse table?
+
+Quad Tree?
