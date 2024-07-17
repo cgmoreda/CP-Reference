@@ -148,6 +148,9 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Graph/SMST O(nlog(n)).md",
+    "Graph/DSU.md",
+    "Graph/Bellmanford.md",
     "Other/VectorHasher.md",
     "Other/Random.md",
     "Other/CompareFunction for ds.md",
@@ -177,8 +180,6 @@
     "others",
     "Math/_Status.md",
     "Data Structures/Status.md",
-    "Math/Sum Sequence.md",
-    "Math/SumRangeDivisors.md",
     "Data Structures/Segment Tree",
     "Flows",
     "Math",
