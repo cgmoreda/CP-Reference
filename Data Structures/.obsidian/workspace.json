@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "6ae3afb20cce9ab6",
+    "id": "1d294163d1b200e2",
     "type": "split",
     "children": [
       {
-        "id": "ebb95c985da0abb5",
+        "id": "decb39166f1de25a",
         "type": "tabs",
         "children": [
           {
-            "id": "393b565be5834e88",
+            "id": "751288b311c6d84c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "others/dp digits.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "14555d048e0e9d7c",
+    "id": "47cacfffa52f109a",
     "type": "split",
     "children": [
       {
-        "id": "eed3409ef5015380",
+        "id": "25b6b66c223fed2d",
         "type": "tabs",
         "children": [
           {
-            "id": "accfc0a77333a23c",
+            "id": "6bdd1f3029ba0dc9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "2288e2651bf71e57",
+            "id": "c09bb186b349d001",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "25b8ece81e760b0c",
+            "id": "fdfb5e768c53d70d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "4373bbcebd9d4102",
+    "id": "78fb6a48bd132825",
     "type": "split",
     "children": [
       {
-        "id": "4fe4ecc3265c1661",
+        "id": "6096f31d639954b4",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2ac20b930298df",
+            "id": "c79cdef09fd4e191",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "others/dp digits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "97500f96ed1b4c4a",
+            "id": "db03b274ec53da05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "others/dp digits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2c8d9de538614edc",
+            "id": "fde292b99453bc56",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "0d17f021ca455293",
+            "id": "3d8b7ab8886fe691",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "others/dp digits.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,43 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "393b565be5834e88",
-  "lastOpenFiles": [
-    "others/Next element.md",
-    "others/dp digits.md",
-    "Silence Vault.md",
-    "To add.md",
-    "others/Untitled",
-    "others",
-    "Math/_Status.md",
-    "Data Structures/Status.md",
-    "Math/Sum Sequence.md",
-    "Math/SumRangeDivisors.md",
-    "Math/NCR Preprocessing.md",
-    "Data Structures/LCA queries O(1).md",
-    "Data Structures/LCA.md",
-    "Math/Phi.md",
-    "Math/Mobius Function.md",
-    "Math/Linear Diophantine Equation, CRT.md",
-    "Math/Matrix power.md",
-    "[.md",
-    "Strings/Aho Corasick.md",
-    "Strings/_Status.md",
-    "Strings/Suffix Array Faster.md",
-    "Strings/Suffix Array.md",
-    "Strings/Suffix Automation.md",
-    "Data Structures/Treap.md",
-    "Data Structures/Mo's Algorithm.md",
-    "Data Structures/Segment Tree/segment with lazy.md",
-    "Data Structures/Ordered Set.md",
-    "Strings/KMP.md",
-    "Data Structures/Segment Tree",
-    "Other",
-    "Graph",
-    "Flows",
-    "Math",
-    "Data Structures",
-    "Geometry",
-    "Strings"
-  ]
+  "active": "751288b311c6d84c",
+  "lastOpenFiles": []
 }
