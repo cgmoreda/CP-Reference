@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "a4d8521e56231878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flows/MaxBipartiteMatching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9b6c4716771d539d",
             "type": "leaf",
             "state": {
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,6 +185,18 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "others/Next element.md",
+    "others/dp digits.md",
+    "others",
+    "Graph/SMST O(nlog(n)).md",
+    "Graph/DSU.md",
+    "Graph/Bellmanford.md",
+    "Flows/Max Bipartite Matching.md",
+    "Flows/MCMF.md",
+    "Flows/Hungarian.md",
+    "Flows/Euler tour.md",
+    "Flows/Edmonds Karb.md",
+    "Flows/Dinic.md",
     "Geometry/GeoReda/Squares.md",
     "Geometry/GeoReda/Lattice Points.md",
     "Geometry/GeoReda/Basic Funcs.md",
@@ -214,24 +214,12 @@
     "Other/Base Conversion.md",
     "Other/CompareFunction for ds.md",
     "Other/VectorHasher.md",
-    "Other/Random.md",
-    "Bits/__BuiltIn_functions().md",
-    "To add.md",
     "Bits",
-    "Math/Matrix power.md",
-    "Strings/_Status.md",
-    "Strings/Suffix Automation.md",
-    "Strings/Suffix Array.md",
-    "Strings/Suffix Array Faster.md",
-    "Strings/Aho Corasick.md",
-    "Math/_Status.md",
-    "Math/SumRangeDivisors.md",
     "Data Structures/Segment Tree",
     "Other",
     "Graph",
     "Flows",
     "Math",
-    "Data Structures",
-    "Geometry"
+    "Data Structures"
   ]
 }
