@@ -3,11 +3,9 @@ reference
 Datastructers
 
 {
-	lazy
 	persistant?
 	extended segment?
 }
-Treap
 
 ::Other::
 Ternary Search
@@ -23,8 +21,6 @@ compare function for sets and map
 dp digit
 SOS
 LIS
-
-
 
 
 ::Bits::
