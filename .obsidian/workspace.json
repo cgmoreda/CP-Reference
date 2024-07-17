@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/CheckTime.md",
+                "file": "Geometry/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other/CheckTime.md",
+                "file": "Geometry/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other/CheckTime.md",
+                "file": "Geometry/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other/CheckTime.md"
+                "file": "Geometry/_Status.md"
               }
             }
           }
@@ -197,8 +197,11 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "Other/Base Conversion.md",
+    "Graph/_Status.md",
+    "Geometry/_Status.md",
+    "Math/Sum x to the i.md",
     "Other/CheckTime.md",
+    "Other/Base Conversion.md",
     "Other/CompareFunction for ds.md",
     "Other/VectorHasher.md",
     "Other/Random.md",
@@ -221,9 +224,6 @@
     "Data Structures/LCA.md",
     "Data Structures/LCA queries O(1).md",
     "Data Structures/Mo's Algorithm.md",
-    "Strings/Status.md",
-    "Strings/KMP.md",
-    "Template.md",
     "Data Structures/Segment Tree",
     "Other",
     "Graph",
