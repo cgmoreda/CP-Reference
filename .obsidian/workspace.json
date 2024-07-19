@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "a4d8521e56231878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flows/Max Bipartite Matching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9b6c4716771d539d",
             "type": "leaf",
             "state": {
@@ -49,14 +61,18 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Math/_Status.md",
+=======
+                "file": "Flows/MCMF.md",
+>>>>>>> 1daef64e2536ef2cde858a0c0721e21f399d9c98
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +138,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Math/_Status.md",
+=======
+                "file": "Flows/MCMF.md",
+>>>>>>> 1daef64e2536ef2cde858a0c0721e21f399d9c98
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +159,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Math/_Status.md",
+=======
+                "file": "Flows/MCMF.md",
+>>>>>>> 1daef64e2536ef2cde858a0c0721e21f399d9c98
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Math/_Status.md"
+=======
+                "file": "Flows/MCMF.md"
+>>>>>>> 1daef64e2536ef2cde858a0c0721e21f399d9c98
               }
             }
           }
@@ -194,15 +222,20 @@
     "others/Next element.md",
     "others/dp digits.md",
     "others",
-    "Graph/SMST O(nlog(n)).md",
-    "Graph/DSU.md",
-    "Graph/Bellmanford.md",
-    "Flows/Max Bipartite Matching.md",
-    "Flows/MCMF.md",
+    "Geometry/GeoReda/_1_Defines and Point.md",
+    "Geometry/GeoReda/Squares.md",
+    "Geometry/GeoReda/SomeRules.md",
+    "Geometry/GeoReda/Lattice Points.md",
+    "Geometry/GeoReda/CircleCenter.md",
+    "Geometry/GeoReda/Basic Funcs.md",
+    "Geometry/GeoReda/Areas.md",
+    "Geometry/GeoReda",
     "Flows/Hungarian.md",
+    "Flows/Max Bipartite Matching.md",
     "Flows/Euler tour.md",
     "Flows/Edmonds Karb.md",
     "Flows/Dinic.md",
+<<<<<<< HEAD
     "Geometry/GeoReda/Squares.md",
     "Geometry/GeoReda/Lattice Points.md",
     "Geometry/GeoReda/CircleCenter.md",
@@ -216,10 +249,27 @@
     "Graph/_Status.md",
     "Bits",
     "Data Structures/Segment Tree",
+=======
+    "Graph/Bellmanford.md",
+    "Data Structures/Status.md",
+    "Geometry/_Status.md",
+    "Graph/_Status.md",
+    "Graph/DSU.md",
+    "Graph/SMST O(nlog(n)).md",
+    "Flows/MCMF.md",
+    "Other/VectorHasher.md",
+    "Other/Random.md",
+    "Other/CompareFunction for ds.md",
+    "Other/CheckTime.md",
+    "Other/Base Conversion.md",
+>>>>>>> 1daef64e2536ef2cde858a0c0721e21f399d9c98
     "Other",
     "Graph",
+    "Geometry",
+    "Bits",
+    "New Text Document.txt",
+    "Data Structures/Segment Tree",
     "Flows",
-    "Math",
-    "Data Structures"
+    "Math"
   ]
 }
