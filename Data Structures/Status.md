@@ -10,7 +10,7 @@ LCA  with query o(1) :: Added
 
 MO :: Not Tested
 
-DSU::
+DSU::Added
 
 DSU with rollback technique
 
@@ -25,3 +25,6 @@ Centroid Decomp
 Sparse table?
 
 Quad Tree?
+
+Extended Segment Tree
+Persistent Segment Tree
