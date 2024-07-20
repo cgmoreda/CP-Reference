@@ -1,15 +1,11 @@
-Tarjan:
+Tarjan:DONE
 	SCC
 	 Articulation Points and bridges
-	 Edge Classification
-
-DSU
-LCA
-LCA queries O(1)
+	 
+DSU::added 
 Bellmanford
-SMST
-
-Euler Tour
+SMST:: added
+Euler Tour:: added
 
 
 

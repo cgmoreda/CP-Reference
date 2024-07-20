@@ -1,4 +1,4 @@
 Random numbers
 LIS
-Ternary Search
+Ternary Search->Nourhan
 Fast IO
