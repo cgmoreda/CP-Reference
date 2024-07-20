@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Sieve.md",
+                "file": "Data Structures/Sqrt Decomposition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Sieve.md",
+                "file": "Data Structures/Sqrt Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Sieve.md",
+                "file": "Data Structures/Sqrt Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Sieve.md"
+                "file": "Data Structures/Sqrt Decomposition.md"
               }
             }
           }
@@ -148,7 +148,12 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Data Structures/Status.md",
     "Data Structures/Treap.md",
+    "Data Structures/Sqrt Decomposition.md",
+    "Data Structures/Mo's Algorithm.md",
+    "Data Structures/LCA queries O(1).md",
+    "Data Structures/Ordered Set.md",
     "Math/Sieve.md",
     "Data Structures/trie (abdosaad).md",
     "others/dp digits.md",
@@ -172,12 +177,7 @@
     "Math/Sum x to the i.md",
     "Graph/_Status.md",
     "Graph",
-    "Geometry/_Status.md",
     "Geometry",
-    "Flows/Max Bipartite Matching.md",
-    "Flows/MCMF.md",
-    "Flows/Hungarian.md",
-    "Flows/Euler tour.md",
     "Bits",
     "others/Untitled",
     "others",
