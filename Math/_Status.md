@@ -1,14 +1,15 @@
 
 Probability Ruels summary ?
 
-Matrix Power
-NcR in prepros O(n)
+Matrix Power:: done 
+NcR in prepros O(n):: done 
 NcR in o(r)
-Sieve
-Segment seive
-linear seive
+Sieve:: 
+Segment seive:: 
+linear seive:: 
 
-Linear Diophantine equation:: 
-CRT
-mobius function
-Phi
+Linear Diophantine equation::
+polynomial function:: get from abdelwahab's reference
+CRT :: done
+mobius function :: done
+Phi:: done
