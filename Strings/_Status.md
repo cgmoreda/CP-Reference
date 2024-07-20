@@ -15,3 +15,5 @@ Suffix Automation::
 Aho-Corasick::Done
 
 Manacher:: 
+
+Z algorithm

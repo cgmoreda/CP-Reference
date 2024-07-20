@@ -25,3 +25,6 @@ Centroid Decomp
 Sparse table?
 
 Quad Tree?
+
+Extended Segment Tree
+Persistent Segment Tree
