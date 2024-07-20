@@ -209,6 +209,8 @@
   },
   "active": "5f0b5cf5a1e46de5",
   "lastOpenFiles": [
+    "Math/Sieve.md",
+    "Data Structures/Sqrt Decomposition.md",
     "Graph/SCC.md",
     "Graph/Tarjan SCC.md",
     "Graph/_Status.md",
@@ -233,8 +235,6 @@
     "Flows/Dinic.md",
     "Strings/Z algorithm.md",
     "Strings/_Status.md",
-    "others/_Status.md",
-    "Math/Mobius Function.md",
     "others",
     "Geometry/GeoReda",
     "Other",
