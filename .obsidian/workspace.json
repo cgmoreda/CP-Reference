@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Tarjan SCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Tarjan SCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Tarjan SCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/_Status.md"
+                "file": "Graph/Tarjan SCC.md"
               }
             }
           }
@@ -209,17 +209,20 @@
   },
   "active": "5f0b5cf5a1e46de5",
   "lastOpenFiles": [
+    "Graph/SCC.md",
+    "Graph/Tarjan SCC.md",
+    "Graph/_Status.md",
+    "Flows/_Status.md",
+    "Data Structures/_Status.md",
     "Other/dp digits.md",
     "Other/_Status.md",
     "Other/Next element.md",
     "Other/LIS O(nlogn).md",
     "Data Structures/Segment Tree/Persistent Segment Tree.md",
     "Data Structures/Segment Tree/Segment Tree with lazy.md",
-    "Data Structures/_Status.md",
     "Data Structures/Segment Tree/Extended Segment Tree.md",
     "Data Structures/Quad Tree.md",
     "Data Structures/DSU.md",
-    "Graph/Tarjan SCC.md",
     "Graph/Bridges.md",
     "Graph/Articulation Points.md",
     "Data Structures/trie (abdosaad).md",
@@ -227,14 +230,11 @@
     "Math/Generate All Submasks.md",
     "Math/_Status.md",
     "Data Structures/Centroid Decomposition.md",
-    "Graph/_Status.md",
     "Flows/Dinic.md",
     "Strings/Z algorithm.md",
     "Strings/_Status.md",
     "others/_Status.md",
     "Math/Mobius Function.md",
-    "Flows/_Status.md",
-    "Other/Random.md",
     "others",
     "Geometry/GeoReda",
     "Other",

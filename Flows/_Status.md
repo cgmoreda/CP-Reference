@@ -1,6 +1,6 @@
-Dinic
-MCMF
-Maximum bipartite matching
-Edmonds Karb
-Hungarian
+Dinic:: Added
+MCMF:: Added
+Maximum bipartite matching:: Added
+Edmonds Karb:: Added 
+Hungarian:: Added
 
