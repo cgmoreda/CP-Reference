@@ -6,7 +6,7 @@ Z-Algorithm::
 
 Hashing:: Tested before
 
-Trie:: 
+Trie:: Added
 
 Suffix Array:: Done
 
@@ -16,4 +16,4 @@ Aho-Corasick::Done
 
 Manacher:: 
 
-Z algorithm
+Z algorithm:: added 
