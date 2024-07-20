@@ -183,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "393b565be5834e88",
+  "active": "accfc0a77333a23c",
   "lastOpenFiles": [
+    "others",
+    "Data Structures/DSU.md",
     "Strings/Z algorithm.md",
     "Other/_Status.md",
     "Other/LIS O(nlogn).md",
@@ -209,8 +211,6 @@
     "Strings/KMP.md",
     "Flows/MCMF.md",
     "Data Structures/LCA.md",
-    "Bits/__BuiltIn_functions().md",
-    "Math/_Status.md",
     "others",
     "Geometry/GeoReda/Untitled",
     "Geometry/GeoReda",
