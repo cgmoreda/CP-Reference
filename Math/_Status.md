@@ -8,7 +8,7 @@ Sieve
 Segment seive
 linear seive
 
-Linear Diophantine equation
+Linear Diophantine equation:: 
 CRT
 mobius function
 Phi
