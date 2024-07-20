@@ -8,90 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d2e1c0452487f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures/_Status.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba758a9508fbc679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures/_Status.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-=======
-            "id": "a4d8521e56231878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flows/Max Bipartite Matching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
-            "id": "9b6c4716771d539d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "393b565be5834e88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Graph/_Status.md",
-=======
-                "file": "Math/Matrix power.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f0b5cf5a1e46de5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph/Tarjan SCC.md",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+                "file": "Other/Ternary search.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-<<<<<<< HEAD
-        "currentTab": 3
-=======
-        "currentTab": 5
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Graph/_Status.md",
-=======
-                "file": "Graph/Tarjan SCC.md",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+                "file": "Other/Ternary search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,11 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Graph/_Status.md",
-=======
-                "file": "Graph/Tarjan SCC.md",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+                "file": "Other/Ternary search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,11 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Graph/_Status.md"
-=======
-                "file": "Graph/Tarjan SCC.md"
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+                "file": "Other/Ternary search.md"
               }
             }
           }
@@ -230,79 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f0b5cf5a1e46de5",
+  "active": "393b565be5834e88",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Graph/Ezzat ArcPoints And Bridges.md",
-    "Math/Sieve.md",
+    "Data Structures/trie (abdosaad).md",
+    "Other/Ternary search.md",
+    "Other/CheckTime.md",
+    "Other/CompareFunction for ds.md",
+    "Other/dp digits.md",
+    "Strings/Aho Corasick.md",
+    "Strings/Z algorithm.md",
+    "Strings/Suffix Automation.md",
+    "Strings/Suffix Array Faster.md",
+    "Strings/Suffix Array.md",
+    "Strings/KMP.md",
+    "Strings/Hashing.md",
+    "Data Structures/DSU.md",
     "Data Structures/Sqrt Decomposition.md",
-    "Data Structures/Segment Tree/Segment Tree with lazy.md",
-    "Data Structures/Segment Tree/Persistent Segment Tree.md",
-    "Data Structures/Segment Tree/Extended Segment Tree.md",
-    "Data Structures/Quad Tree.md",
+    "Graph/Ezzat ArcPoints And Bridges.md",
     "Data Structures/2SAT.md",
     "Data Structures/_Status.md",
-    "Bits/__BuiltIn_functions().md",
-    "others",
-    "Data Structures/DSU.md",
-    "Strings/Z algorithm.md",
-=======
-    "Math/Sieve.md",
-    "Data Structures/Sqrt Decomposition.md",
-    "Graph/SCC.md",
-    "Graph/Tarjan SCC.md",
-    "Graph/_Status.md",
-    "Flows/_Status.md",
-    "Data Structures/_Status.md",
-    "Other/dp digits.md",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
-    "Other/_Status.md",
-    "Other/LIS O(nlogn).md",
-<<<<<<< HEAD
-    "Math/Generate All Submasks.md",
-    "Graph/Euler tour.md",
-    "Flows/_Status.md",
-    "Data Structures/Centroid Decomposition.md",
-    "Data Structures/trie (abdosaad).md",
-    "Graph/Articulation Points.md",
-    "Graph/Bridges.md",
-    "Graph/Tarjan SCC.md",
-    "Math/SumRangeDivisors.md",
-    "Math/Sum x to the i.md",
-    "Math/Sum Sequence.md",
-    "Math/Phi.md",
-    "others",
-    "Geometry/GeoReda/Untitled",
-=======
-    "Data Structures/Segment Tree/Persistent Segment Tree.md",
     "Data Structures/Segment Tree/Segment Tree with lazy.md",
+    "Data Structures/Segment Tree/Persistent Segment Tree.md",
     "Data Structures/Segment Tree/Extended Segment Tree.md",
     "Data Structures/Quad Tree.md",
-    "Data Structures/DSU.md",
-    "Graph/Bridges.md",
-    "Graph/Articulation Points.md",
-    "Data Structures/trie (abdosaad).md",
-    "others/LIS O(nlogn).md",
+    "Other/_Status.md",
+    "Other/Next element.md",
+    "Other/LIS O(nlogn).md",
     "Math/Generate All Submasks.md",
-    "Math/_Status.md",
-    "Data Structures/Centroid Decomposition.md",
-    "Flows/Dinic.md",
-    "Strings/Z algorithm.md",
-    "Strings/_Status.md",
-    "others",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
+    "Graph/Tarjan SCC.md",
     "Geometry/GeoReda",
-    "Bits",
-    "Data Structures/Segment Tree",
     "Other",
     "Graph",
-<<<<<<< HEAD
-=======
     "Geometry",
     "Bits",
-    "New Text Document.txt",
+    "others/Untitled",
+    "others",
     "Data Structures/Segment Tree",
->>>>>>> a6916df76c56297999b93a74baeeea296ce41490
     "Flows",
     "Math"
   ]
