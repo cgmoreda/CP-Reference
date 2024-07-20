@@ -20,11 +20,11 @@ TwoSat::
 
 Monotonic Queue
 
-Centroid Decomp
+Centroid Decomposition: Added
 
 Sparse table?
 
-Quad Tree?
+Quad Tree? Added
 
-Extended Segment Tree
-Persistent Segment Tree
+Extended Segment Tree:: Added
+Persistent Segment Tree:: Added

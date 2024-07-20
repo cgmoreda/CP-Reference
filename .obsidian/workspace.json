@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph/Ezzat ArcPoints And Bridges.md",
+                "file": "Graph/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph/Ezzat ArcPoints And Bridges.md",
+                "file": "Graph/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph/Ezzat ArcPoints And Bridges.md",
+                "file": "Graph/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph/Ezzat ArcPoints And Bridges.md"
+                "file": "Graph/_Status.md"
               }
             }
           }
@@ -185,8 +185,14 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "Data Structures/2SAT.md",
     "Graph/Ezzat ArcPoints And Bridges.md",
+    "Math/Sieve.md",
+    "Data Structures/Sqrt Decomposition.md",
+    "Data Structures/Segment Tree/Segment Tree with lazy.md",
+    "Data Structures/Segment Tree/Persistent Segment Tree.md",
+    "Data Structures/Segment Tree/Extended Segment Tree.md",
+    "Data Structures/Quad Tree.md",
+    "Data Structures/2SAT.md",
     "Data Structures/_Status.md",
     "Bits/__BuiltIn_functions().md",
     "others",
@@ -206,12 +212,6 @@
     "Math/Sum x to the i.md",
     "Math/Sum Sequence.md",
     "Math/Phi.md",
-    "Math/NCR Preprocessing.md",
-    "Math/Mobius Function.md",
-    "Template.md",
-    "Data Structures/Segment Tree/segment with lazy.md",
-    "Silence Vault.md",
-    "README.md",
     "others",
     "Geometry/GeoReda/Untitled",
     "Geometry/GeoReda",
