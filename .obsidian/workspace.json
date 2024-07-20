@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Status.md"
+                "file": "Data Structures/_Status.md"
               }
             }
           }
@@ -209,8 +209,12 @@
   },
   "active": "5f0b5cf5a1e46de5",
   "lastOpenFiles": [
+    "Data Structures/Segment Tree/Persistent Segment Tree.md",
+    "Data Structures/Segment Tree/Segment Tree with lazy.md",
+    "Data Structures/_Status.md",
+    "Data Structures/Segment Tree/Extended Segment Tree.md",
+    "Data Structures/Quad Tree.md",
     "Data Structures/DSU.md",
-    "Data Structures/Status.md",
     "Graph/Tarjan SCC.md",
     "Graph/Bridges.md",
     "Graph/Articulation Points.md",
@@ -225,16 +229,12 @@
     "Strings/_Status.md",
     "others/_Status.md",
     "Math/Mobius Function.md",
-    "Data Structures/Segment Tree/segment with lazy.md",
     "Flows/_Status.md",
     "Other/Random.md",
     "Other/CompareFunction for ds.md",
     "Other/CheckTime.md",
     "Other/Base Conversion.md",
     "Data Structures/Mo's Algorithm.md",
-    "Data Structures/LCA queries O(1).md",
-    "Data Structures/LCA.md",
-    "Flows/MCMF.md",
     "others",
     "Geometry/GeoReda",
     "Other",
