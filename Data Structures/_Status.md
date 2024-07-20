@@ -16,7 +16,7 @@ DSU with rollback technique
 
 SqrtDecomp::
 
-TwoSat
+TwoSat::
 
 Monotonic Queue
 

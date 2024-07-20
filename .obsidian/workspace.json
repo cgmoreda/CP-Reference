@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Status.md",
+                "file": "Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bits/__BuiltIn_functions().md",
+                "file": "Graph/Ezzat ArcPoints And Bridges.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bits/__BuiltIn_functions().md",
+                "file": "Graph/Ezzat ArcPoints And Bridges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bits/__BuiltIn_functions().md",
+                "file": "Graph/Ezzat ArcPoints And Bridges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bits/__BuiltIn_functions().md"
+                "file": "Graph/Ezzat ArcPoints And Bridges.md"
               }
             }
           }
@@ -183,8 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "accfc0a77333a23c",
+  "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Data Structures/2SAT.md",
+    "Graph/Ezzat ArcPoints And Bridges.md",
+    "Data Structures/_Status.md",
+    "Bits/__BuiltIn_functions().md",
     "others",
     "Data Structures/DSU.md",
     "Strings/Z algorithm.md",
@@ -208,9 +212,6 @@
     "Data Structures/Segment Tree/segment with lazy.md",
     "Silence Vault.md",
     "README.md",
-    "Strings/KMP.md",
-    "Flows/MCMF.md",
-    "Data Structures/LCA.md",
     "others",
     "Geometry/GeoReda/Untitled",
     "Geometry/GeoReda",
@@ -219,7 +220,6 @@
     "Other",
     "Graph",
     "Flows",
-    "Math",
-    "Data Structures"
+    "Math"
   ]
 }
