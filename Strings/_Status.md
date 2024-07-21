@@ -2,7 +2,7 @@ Strings::
 
 KMP:: tested
 
-Z-Algorithm::
+Z-Algorithm::done
 
 Hashing:: Tested before
 
@@ -10,10 +10,9 @@ Trie::
 
 Suffix Array:: Done
 
-Suffix Automation:: 
+Suffix Automation:: done
 
 Aho-Corasick::Done
 
 Manacher:: 
 
-Z algorithm

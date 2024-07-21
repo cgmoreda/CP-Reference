@@ -18,7 +18,7 @@ SqrtDecomp::
 
 TwoSat::
 
-Monotonic Queue
+Monotonic Queue::done
 
 Centroid Decomposition: Added
 

@@ -1,5 +1,5 @@
 #define INF 1e9  
-  //_O_(V*V*E)
+//O(V*V*E) more faster
 struct Dinic { //0-based{  
     struct flowEdge {  
         int from, to;  

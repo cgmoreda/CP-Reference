@@ -4,35 +4,35 @@ Probability Ruels summary ?
 Matrix Power:: done 
 NcR in prepros O(n):: done 
 NcR in o(r)
-Sieve:: 
+Sieve:: done
 Segment seive:: 
 linear seive:: 
 
 <<<<<<< HEAD
-Linear Diophantine equation
-CRT
-mobius function
-Phi
+Linear Diophantine equation::done
+CRT::done
+mobius function::done
+Phi::done
 
-Extended Euclidean
-Fast Power
-SumRangeDivisors
-sum sequence
 
-(a^n)%p =result, return n
+Fast Power::done
+SumRangeDivisors::done
+sum sequence::done
+
+(a^n)%p =result, return n --->Ezzat
 Segmented sieve
-mod inverse if not prime
+mod inverse if not prime::done
 Sum Fromulas
 
 
-Extended Euclidean for n variables
+Extended Euclidean for n variables---->Ezzat
 
-Sum of Powers
+Sum of Powers::done
 
-genAllSubmasks
+genAllSubmasks::done
 
 =======
-Linear Diophantine equation::
+Linear Diophantine equation::done
 polynomial function:: get from abdelwahab's reference
 CRT :: done
 mobius function :: done
