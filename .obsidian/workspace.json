@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Euler tour.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Euler tour.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "Graph/Euler tour.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/_Status.md"
+                "file": "Graph/Euler tour.md"
               }
             }
           }
@@ -209,11 +209,12 @@
   },
   "active": "5f0b5cf5a1e46de5",
   "lastOpenFiles": [
+    "Other/DP SOS.md",
+    "Data Structures/_Status.md",
     "Strings/trie (abdosaad).md",
     "Other/Ternary search.md",
     "Graph/Tarjan SCC(Reda).md",
     "Data Structures/Sqrt Decomposition.md",
-    "Data Structures/_Status.md",
     "Bits/Xor from 1 to n.md",
     "Bits/__BuiltIn_functions().md",
     "README.md",
@@ -234,7 +235,6 @@
     "Math/Sieve.md",
     "Math/Combinatorics.md",
     "Math/Egcd, Linear Diophantine Equation, CRT Ezzat.md",
-    "Math/Linear Diophantine Equation, CRT.md",
     "others",
     "Geometry/GeoReda",
     "Other",
