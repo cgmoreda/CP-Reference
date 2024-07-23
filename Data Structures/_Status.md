@@ -19,7 +19,7 @@ SqrtDecomp:: added
 
 TwoSat:: Added Ezzat's
 
-Monotonic Queue
+Monotonic Queue::done
 
 Centroid Decomposition: Added
 
