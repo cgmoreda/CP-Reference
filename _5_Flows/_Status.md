@@ -1,8 +1,7 @@
 
-
-Dinic:: Added
-MCMF:: Added
-Maximum bipartite matching:: Added
-Edmonds Karb:: Added 
-Hungarian:: Added
+Dinic: Added
+MCMF: Added
+Maximum bipartite matching: Added
+Edmonds Karp: Added 
+Hungarian: Added
 
