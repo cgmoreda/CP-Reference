@@ -1,4 +1,4 @@
-sieve--> get primes from 0 to N
+//sieve--> get primes from 0 to N
 
 const int N = 1e6 + 5;
 vector <int> primes;

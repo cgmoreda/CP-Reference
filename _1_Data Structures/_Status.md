@@ -1,31 +1,18 @@
-Ordered set :: DONE
-
-Segment Tree :: Tested
-
-Treap:: tested reverse on 1 problem
-
-Fenwick :: Tested
-
+Ordered set :: Added
+Segment Tree :: Added
+Treap:: Added
+Fenwick :: Added
 LCA:: added 
 LCA  with query o(1) :: Added
-
-MO :: Not Tested
-
+MO :: Added
 DSU::Added
-
-DSU with rollback technique
-
-SqrtDecomp:: added
-
-TwoSat:: Added Ezzat's
-
-Monotonic Queue::done
-
+SqrtDecomp:: Added
+TwoSat:: Added
+Monotonic Queue::Added
 Centroid Decomposition: Added
-
-Sparse table?
-
-Quad Tree? Added
-
+Quad Tree:: Added
 Extended Segment Tree:: Added
 Persistent Segment Tree:: Added
+
+DSU with rollback technique:: no need
+Sparse table:: no need
