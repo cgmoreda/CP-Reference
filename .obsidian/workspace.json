@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_2_Math/_Status.md",
+                "file": "_3_ Strings/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_2_Math/_Status.md",
+                "file": "_3_ Strings/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_2_Math/_Status.md",
+                "file": "_3_ Strings/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_2_Math/_Status.md"
+                "file": "_3_ Strings/_Status.md"
               }
             }
           }
@@ -185,6 +185,16 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "_3_ Strings/_8_Suffix Automation.md",
+    "_3_ Strings/_7_Suffix Array Faster.md",
+    "_3_ Strings/_6_ Suffix Array.md",
+    "_3_ Strings/_5_Hashing.md",
+    "_3_ Strings/_4_Aho Corasick.md",
+    "_3_ Strings/_3_ Z algorithm.md",
+    "_3_ Strings/_2_ Trie (abdosaad).md",
+    "_3_ Strings/_1_KMP.md",
+    "_3_ Strings/_Status.md",
+    "_2_Math/_Status.md",
     "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
     "_2_Math/_10_ Matrix power.md",
     "_2_Math/Egcd, Linear Diophantine Equation, CRT Ezzat.md",
@@ -201,16 +211,6 @@
     "_2_Math/_3_ Combinatorics.md",
     "_2_Math/_2_Mod Inverse.md",
     "_2_Math/Sum x to the i.md",
-    "_2_Math/_1_Fast Power.md",
-    "_2_Math/_Status.md",
-    "_1_Data Structures/_Status.md",
-    "_1_Data Structures/_13_ Treap.md",
-    "_1_Data Structures/_12_ Monotonic Queue.md",
-    "_1_Data Structures/_11_ Centroid Decomposition.md",
-    "_1_Data Structures/_10_ 2SAT.md",
-    "_1_Data Structures/_9_Quad Tree.md",
-    "_1_Data Structures/_8_ Mo's Algorithm.md",
-    "_1_Data Structures/_7_ Sqrt Decomposition.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
