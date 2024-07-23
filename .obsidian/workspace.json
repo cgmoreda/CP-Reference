@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings/_Status.md",
+                "file": "Strings/trie (abdosaad).md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings/_Status.md",
+                "file": "Strings/trie (abdosaad).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings/_Status.md",
+                "file": "Strings/trie (abdosaad).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings/_Status.md"
+                "file": "Strings/trie (abdosaad).md"
               }
             }
           }
@@ -185,10 +185,17 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "Data Structures/LCA.md",
+    "Math/Matrix power.md",
+    "Data Structures/Fenwick.md",
+    "Math/NCR Preprocessing.md",
+    "Data Structures/Segment Tree/Segment Tree with lazy.md",
+    "Data Structures/DSU.md",
+    "Template.md",
+    "Strings/_Status.md",
     "Math/_Status.md",
     "Math/Generate All Submasks.md",
     "Other/_Status.md",
-    "Strings/_Status.md",
     "Graph/_Status.md",
     "Data Structures/_Status.md",
     "Graph/DSU.md",
@@ -198,20 +205,13 @@
     "Graph/Ezzat ArcPoints And Bridges.md",
     "Math/Sieve.md",
     "Data Structures/Sqrt Decomposition.md",
-    "Data Structures/Segment Tree/Segment Tree with lazy.md",
     "Data Structures/Segment Tree/Persistent Segment Tree.md",
     "Data Structures/Segment Tree/Extended Segment Tree.md",
     "Data Structures/Quad Tree.md",
     "Data Structures/2SAT.md",
     "Bits/__BuiltIn_functions().md",
     "others",
-    "Data Structures/DSU.md",
     "Strings/Z algorithm.md",
-    "Other/LIS O(nlogn).md",
-    "Graph/Euler tour.md",
-    "Data Structures/Centroid Decomposition.md",
-    "Strings/trie (abdosaad).md",
-    "Graph/Articulation Points.md",
     "others",
     "Geometry/GeoReda/Untitled",
     "Geometry/GeoReda",
