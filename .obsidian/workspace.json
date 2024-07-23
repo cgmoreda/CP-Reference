@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_7_Bits/_Status.md",
+                "file": "Silence Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_7_Bits/_Status.md",
+                "file": "Silence Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_7_Bits/_Status.md",
+                "file": "Silence Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_7_Bits/_Status.md"
+                "file": "Silence Vault.md"
               }
             }
           }
@@ -185,32 +185,32 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "_7_Bits/_2_ Generate All Submasks.md",
+    "README.md",
+    "Template.md",
+    "_8_Other/_Status.md",
+    "_8_Other/_10_ VectorHasher.md",
+    "_8_Other/_9_ Ternary search.md",
+    "_8_Other/_8_ Random.md",
+    "_8_Other/Random Numbers.md",
+    "_8_Other/_7_ Next element.md",
+    "_8_Other/_6_ LIS O(nlogn).md",
+    "_8_Other/_5_ DP SOS.md",
+    "_8_Other/_4_ DP digits.md",
+    "_8_Other/_3_ CompareFunction for ds.md",
+    "_8_Other/_1_ Base Conversion.md",
+    "_8_Other/_2_ CheckTime.md",
     "_7_Bits/_Status.md",
+    "_7_Bits/_2_ Generate All Submasks.md",
     "_7_Bits/_3_ Xor from 1 to n.md",
     "_7_Bits/_1_ __BuiltIn_functions().md",
-    "_8_Other/_Status.md",
-    "README.md",
     "Silence Vault.md",
     "To add.md",
-    "_8_Other/Ternary search.md",
     "_1_Data Structures/_Status.md",
     "_6_Geometry/_Status.md",
     "_6_Geometry/_4_Polygon Centroid.md",
     "_6_Geometry/_3_Areas.md",
     "_6_Geometry/_2_ Basic Funcs.md",
     "_6_Geometry/_1_Defines and Point.md",
-    "_6_Geometry/_8_ Properties of Regular polygons.md",
-    "_6_Geometry/_7_ CosineRule.md",
-    "_6_Geometry/_6_ Convex Hull.md",
-    "_6_Geometry/_5_ Lattice Points.md",
-    "_6_Geometry/_5_ Squares.md",
-    "_6_Geometry/Area of a triangle using three coordinates.md",
-    "_6_Geometry/GeoReda/_3_CircleCenter.md",
-    "_5_Flows/_Status.md",
-    "_5_Flows/_5_ MCMF.md",
-    "_5_Flows/_4_ Max Bipartite Matching.md",
-    "_5_Flows/_3_ Hungarian.md",
     "_4_Graph/_1_ Tarjan Reda",
     "others",
     "others",
