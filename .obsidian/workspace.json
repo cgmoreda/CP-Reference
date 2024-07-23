@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_7_Bits/Generate All Submasks.md",
+                "file": "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 347.5110321044922
   },
   "right": {
     "id": "4373bbcebd9d4102",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_7_Bits/Generate All Submasks.md",
+                "file": "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_7_Bits/Generate All Submasks.md",
+                "file": "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_7_Bits/Generate All Submasks.md"
+                "file": "_2_Math/_11_ Linear Diophantine Equation, CRT.md"
               }
             }
           }
@@ -185,19 +185,22 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
-    "_7_Bits/__BuiltIn_functions().md",
-    "_7_Bits/Generate All Submasks.md",
-    "_2_Math/Generate All Submasks.md",
-    "_2_Math/_4_ Sum of powers and Sequence.md",
-    "_2_Math/_3_ Combinatorics.md",
-    "_2_Math/Phi.md",
-    "_2_Math/_2_Mod Inverse.md",
-    "_2_Math/Sum Sequence.md",
-    "_2_Math/SumRangeDivisors.md",
-    "_2_Math/Sum x to the i.md",
-    "_2_Math/Sieve.md",
-    "_2_Math/Matrix power.md",
+    "_2_Math/_10_ Matrix power.md",
+    "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
     "_2_Math/Egcd, Linear Diophantine Equation, CRT Ezzat.md",
+    "_2_Math/_6_SumRangeDivisors.md",
+    "_2_Math/_5_ Sum of powers and Sequence.md",
+    "_2_Math/_9_ Mobius Function.md",
+    "_2_Math/_8_ Phi.md",
+    "_2_Math/_7_ Sieve.md",
+    "_2_Math/Sum Sequence.md",
+    "_2_Math/_4_ NCR Preprocessing.md",
+    "_7_Bits/Generate All Submasks.md",
+    "_7_Bits/__BuiltIn_functions().md",
+    "_2_Math/Generate All Submasks.md",
+    "_2_Math/_3_ Combinatorics.md",
+    "_2_Math/_2_Mod Inverse.md",
+    "_2_Math/Sum x to the i.md",
     "_2_Math/_1_Fast Power.md",
     "_2_Math/_Status.md",
     "_1_Data Structures/_Status.md",
@@ -208,9 +211,6 @@
     "_1_Data Structures/_9_Quad Tree.md",
     "_1_Data Structures/_8_ Mo's Algorithm.md",
     "_1_Data Structures/_7_ Sqrt Decomposition.md",
-    "_1_Data Structures/_6_ LCA queries O(1).md",
-    "_1_Data Structures/_5_LCA.md",
-    "_1_Data Structures/_4_ Segment Tree/_3_Persistent Segment Tree.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
