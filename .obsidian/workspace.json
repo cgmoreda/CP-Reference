@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_3_ Strings/_Status.md",
+                "file": "_4_Graph/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_3_ Strings/_Status.md",
+                "file": "_4_Graph/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_3_ Strings/_Status.md",
+                "file": "_4_Graph/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_3_ Strings/_Status.md"
+                "file": "_4_Graph/_Status.md"
               }
             }
           }
@@ -185,6 +185,18 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "_4_Graph/_4_ SMST O(nlog(n)).md",
+    "_4_Graph/_3_ Euler tour.md",
+    "_4_Graph/_2_ Bellmanford.md",
+    "_4_Graph/_Status.md",
+    "_4_Graph/_1_ Tarjan Reda/_3_ Articulation Points.md",
+    "_4_Graph/_1_ Tarjan Reda/_2_Bridges.md",
+    "_4_Graph/_1_ Tarjan Reda/_1_Tarjan SCC.md",
+    "_4_Graph/_1_ Tarjan Reda",
+    "_1_Data Structures/_3_DSU.md",
+    "_4_Graph/DSU.md",
+    "_4_Graph/Ezzat ArcPoints And Bridges.md",
+    "_3_ Strings/_Status.md",
     "_3_ Strings/_8_Suffix Automation.md",
     "_3_ Strings/_7_Suffix Array Faster.md",
     "_3_ Strings/_6_ Suffix Array.md",
@@ -193,7 +205,6 @@
     "_3_ Strings/_3_ Z algorithm.md",
     "_3_ Strings/_2_ Trie (abdosaad).md",
     "_3_ Strings/_1_KMP.md",
-    "_3_ Strings/_Status.md",
     "_2_Math/_Status.md",
     "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
     "_2_Math/_10_ Matrix power.md",
@@ -201,16 +212,6 @@
     "_2_Math/_6_SumRangeDivisors.md",
     "_2_Math/_5_ Sum of powers and Sequence.md",
     "_2_Math/_9_ Mobius Function.md",
-    "_2_Math/_8_ Phi.md",
-    "_2_Math/_7_ Sieve.md",
-    "_2_Math/Sum Sequence.md",
-    "_2_Math/_4_ NCR Preprocessing.md",
-    "_7_Bits/Generate All Submasks.md",
-    "_7_Bits/__BuiltIn_functions().md",
-    "_2_Math/Generate All Submasks.md",
-    "_2_Math/_3_ Combinatorics.md",
-    "_2_Math/_2_Mod Inverse.md",
-    "_2_Math/Sum x to the i.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
@@ -219,7 +220,6 @@
     "_1_Data Structures/_4_ Segment Tree",
     "_8_Other",
     "_4_Graph",
-    "_5_Flows",
-    "_2_Math"
+    "_5_Flows"
   ]
 }

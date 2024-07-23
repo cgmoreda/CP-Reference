@@ -1,11 +1,11 @@
 Tarjan:DONE
-	SCC
-	 Articulation Points and bridges
+	SCC: Added
+	Bridges: Added
+	Articulation Points: Added 
 	 
-DSU::added 
-Bellmanford
-SMST:: added
-Euler Tour:: added
+Bellmanford: Added
+Euler Tour: Added
+SMST: Added
 
 
 
