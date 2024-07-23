@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_5_Bits/Xor from 1 to n.md",
+                "file": "_1_Data Structures/Ordered Set.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_5_Bits/Xor from 1 to n.md",
+                "file": "_1_Data Structures/Ordered Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_5_Bits/Xor from 1 to n.md",
+                "file": "_1_Data Structures/Ordered Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_5_Bits/Xor from 1 to n.md"
+                "file": "_1_Data Structures/Ordered Set.md"
               }
             }
           }
@@ -185,41 +185,41 @@
   },
   "active": "accfc0a77333a23c",
   "lastOpenFiles": [
+    "_6_Geometry/Area of a triangle using three coordinates.md",
+    "_6_Geometry/Properties of Regular polygons.md",
+    "_7_Bits/__BuiltIn_functions().md",
+    "_7_Bits/Xor from 1 to n.md",
     "_1_Data Structures/Ordered Set.md",
-    "Strings/trie (abdosaad).md",
-    "Other/Ternary search.md",
-    "Other/Random Numbers.md",
-    "Other/DP SOS.md",
-    "Math/Sum of powers.md",
-    "Math/Mod Inverse.md",
-    "Math/Fast Power.md",
-    "Math/Egcd, Linear Diophantine Equation, CRT Ezzat.md",
-    "Math/Combinatorics.md",
-    "Geometry/Properties of Regular polygons.md",
-    "Geometry/Area of a triangle using three coordinates.md",
+    "_3_ Strings/trie (abdosaad).md",
+    "_8_Other/Ternary search.md",
+    "_8_Other/Random Numbers.md",
+    "_8_Other/DP SOS.md",
+    "_2_Math/Sum of powers.md",
+    "_2_Math/Mod Inverse.md",
+    "_2_Math/Fast Power.md",
+    "_2_Math/Egcd, Linear Diophantine Equation, CRT Ezzat.md",
+    "_2_Math/Combinatorics.md",
     "_1_Data Structures/Monotonic Queue.md",
-    "_5_Bits/Xor from 1 to n.md",
     "_1_Data Structures/LCA.md",
-    "Math/Matrix power.md",
+    "_2_Math/Matrix power.md",
     "_1_Data Structures/Fenwick.md",
-    "Math/NCR Preprocessing.md",
+    "_2_Math/NCR Preprocessing.md",
     "_1_Data Structures/Segment Tree/Segment Tree with lazy.md",
     "_1_Data Structures/DSU.md",
     "Template.md",
-    "Strings/_Status.md",
-    "Math/_Status.md",
-    "Math/Generate All Submasks.md",
-    "Other/_Status.md",
-    "Graph/_Status.md",
+    "_3_ Strings/_Status.md",
+    "_2_Math/_Status.md",
+    "_2_Math/Generate All Submasks.md",
+    "_8_Other/_Status.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
-    "Geometry/GeoReda",
-    "_5_Bits",
+    "_6_Geometry/GeoReda",
+    "_7_Bits",
     "_1_Data Structures/Segment Tree",
-    "Other",
-    "Graph",
-    "Flows",
-    "Math"
+    "_8_Other",
+    "_4_Graph",
+    "_5_Flows",
+    "_2_Math"
   ]
 }
