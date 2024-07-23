@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_5_Flows/_Status.md",
+                "file": "_6_Geometry/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_5_Flows/_Status.md",
+                "file": "_6_Geometry/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_5_Flows/_Status.md",
+                "file": "_6_Geometry/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_5_Flows/_Status.md"
+                "file": "_6_Geometry/_Status.md"
               }
             }
           }
@@ -185,6 +185,19 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "_6_Geometry/_4_Polygon Centroid.md",
+    "_6_Geometry/_3_Areas.md",
+    "_6_Geometry/_2_ Basic Funcs.md",
+    "_6_Geometry/_Status.md",
+    "_6_Geometry/_1_Defines and Point.md",
+    "_6_Geometry/_8_ Properties of Regular polygons.md",
+    "_6_Geometry/_7_ CosineRule.md",
+    "_6_Geometry/_6_ Convex Hull.md",
+    "_6_Geometry/_5_ Lattice Points.md",
+    "_6_Geometry/_5_ Squares.md",
+    "_6_Geometry/Area of a triangle using three coordinates.md",
+    "_6_Geometry/GeoReda/_3_CircleCenter.md",
+    "_5_Flows/_Status.md",
     "_5_Flows/_5_ MCMF.md",
     "_5_Flows/_4_ Max Bipartite Matching.md",
     "_5_Flows/_3_ Hungarian.md",
@@ -199,19 +212,6 @@
     "_4_Graph/_1_ Tarjan Reda/_1_Tarjan SCC.md",
     "_4_Graph/_1_ Tarjan Reda",
     "_1_Data Structures/_3_DSU.md",
-    "_4_Graph/DSU.md",
-    "_4_Graph/Ezzat ArcPoints And Bridges.md",
-    "_3_ Strings/_Status.md",
-    "_3_ Strings/_8_Suffix Automation.md",
-    "_3_ Strings/_7_Suffix Array Faster.md",
-    "_3_ Strings/_6_ Suffix Array.md",
-    "_3_ Strings/_5_Hashing.md",
-    "_3_ Strings/_4_Aho Corasick.md",
-    "_3_ Strings/_3_ Z algorithm.md",
-    "_3_ Strings/_2_ Trie (abdosaad).md",
-    "_3_ Strings/_1_KMP.md",
-    "_2_Math/_Status.md",
-    "_2_Math/_11_ Linear Diophantine Equation, CRT.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",

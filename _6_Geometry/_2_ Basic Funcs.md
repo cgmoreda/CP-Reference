@@ -3,13 +3,10 @@ bool collinear(P a, P b, P c)
 {  
     return (vec(a, b) ^ vec(a, c)) == 0;  
 }
-
 inline ld angle(P a)  
 {  
     return atan2((ld)a.y, (ld)a.x);  
 }  
-
-
 ld linePointDis(P l1, P l2, P p)  
 {  
     ot area = abs(vec(p, l1) ^ vec(p, l2));  
@@ -48,57 +45,6 @@ void sortAntiClockWise(vector<P>& pnts)
     P mn(*min_element(all(pnts)));  
     sort(pnts.begin(), pnts.end(), cmp(mn));  
 }  
-void convexHull(vector<P> p, vector<P>& hull)  
-{  
-  
-    sort(all(p), [&](P& a, P& b)  
-    {  
-      if (a.x != b.x)  
-         return a.x < b.x;  
-      return a.y < b.y;  
-    });  
-    if (p.size() == 1)  
-    {  
-       hull.push_back(p[0]);  
-       return;  
-    }  
-    for (int rep = 0; rep < 2; rep++)  
-    {  
-       int s = hull.size();  
-       for (int i = 0; i < p.size(); i++)  
-       {  
-          while (hull.size() >= s + 2)  
-          {  
-             P p1 = hull.end()[-2];  
-             P p2 = hull.end()[-1];  
-             if ((vec(p1, p2) ^ vec(p1, p[i])) < -eps)  
-                break;  
-  
-             hull.pop_back();  
-          }  
-          hull.push_back(p[i]);  
-       }  
-       reverse(all(p));  
-       hull.pop_back();  
-    }  
-}  
-P getCentroid(vector<P>& p)  
-{  
-    ld x, y;  
-    long long tarea = 0;  
-    x = 0;  
-    y = 0;  
-    for (int i = 1; i < p.size() - 2; i++)  
-    {  
-       long long area = (vec(p[0], p[i]) ^ vec(p[0], p[i + 1]));  
-       x += area * ((p[0].x + p[i].x + p[i + 1].x) / 3.0);  
-       y += area * ((p[0].y + p[i].y + p[i + 1].y) / 3.0);  
-       tarea += area;  
-    }  
-    x /= tarea;  
-    y /= tarea;  
-    return P(x, y);  
-}  
 inline bool pibb(P const& a, P const& b1, P const& b2)  
 {  
     return a.x >= min(b1.x, b2.x) &&  
@@ -135,3 +81,33 @@ bool isPointOnSegment(P const& a, P const& l1, P const& l2)
 {  
     return collinear(a, l1, l2) && pibb(a, l1, l2);  
 }  
+
+P getCircleCenter(P A, P B, P C) {  
+    if (isCollinear(A, B, C)) {  
+       collinear = true;  
+       return {0, 0};   
+    }  
+    collinear = false;  
+    ld D = 2 * (A.x * (B.y - C.y) + B.x * (C.y - A.y) + C.x * (A.y - B.y));  
+    ld Ux = ((A.x * A.x + A.y * A.y) * (B.y - C.y) + (B.x * B.x + B.y * B.y) * (C.y - A.y) + (C.x * C.x + C.y * C.y) * (A.y - B.y)) / D;  
+    ld Uy = ((A.x * A.x + A.y * A.y) * (C.x - B.x) + (B.x * B.x + B.y * B.y) * (A.x - C.x) + (C.x * C.x + C.y * C.y) * (B.x - A.x)) / D;  
+    return {Ux, Uy};  
+}
+  
+bool issqare(P a, P b, P c, P d)  
+{  
+    if (a == b || a == c || a == d || b == c || b == c || c == d)  
+       return false;  
+  
+    vector<ld> ds = {  
+       a.dis(b), a.dis(c), a.dis(d),  
+       b.dis(c), b.dis(d), c.dis(d)  
+    };  
+    sort(all(ds));  
+    return ds[0] > 0 &&  
+       abs(ds[2] - ds[3]) < 1e-8 &&  
+       abs(ds[0] - ds[1]) < 1e-8 &&  
+       abs(ds[1] - ds[2]) < 1e-8 &&  
+       abs(ds[4] - ds[5]) < 1e-8;  
+  
+}
