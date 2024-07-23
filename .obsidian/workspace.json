@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "_1_Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/_Status.md",
+                "file": "_1_Data Structures/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strings/trie (abdosaad).md",
+                "file": "_5_Bits/Xor from 1 to n.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strings/trie (abdosaad).md",
+                "file": "_5_Bits/Xor from 1 to n.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strings/trie (abdosaad).md",
+                "file": "_5_Bits/Xor from 1 to n.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strings/trie (abdosaad).md"
+                "file": "_5_Bits/Xor from 1 to n.md"
               }
             }
           }
@@ -183,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "393b565be5834e88",
+  "active": "accfc0a77333a23c",
   "lastOpenFiles": [
+    "_1_Data Structures/Ordered Set.md",
+    "Strings/trie (abdosaad).md",
     "Other/Ternary search.md",
     "Other/Random Numbers.md",
     "Other/DP SOS.md",
@@ -195,28 +197,26 @@
     "Math/Combinatorics.md",
     "Geometry/Properties of Regular polygons.md",
     "Geometry/Area of a triangle using three coordinates.md",
-    "Data Structures/Monotonic Queue.md",
-    "Bits/Xor from 1 to n.md",
-    "Data Structures/LCA.md",
+    "_1_Data Structures/Monotonic Queue.md",
+    "_5_Bits/Xor from 1 to n.md",
+    "_1_Data Structures/LCA.md",
     "Math/Matrix power.md",
-    "Data Structures/Fenwick.md",
+    "_1_Data Structures/Fenwick.md",
     "Math/NCR Preprocessing.md",
-    "Data Structures/Segment Tree/Segment Tree with lazy.md",
-    "Data Structures/DSU.md",
+    "_1_Data Structures/Segment Tree/Segment Tree with lazy.md",
+    "_1_Data Structures/DSU.md",
     "Template.md",
     "Strings/_Status.md",
     "Math/_Status.md",
     "Math/Generate All Submasks.md",
     "Other/_Status.md",
     "Graph/_Status.md",
-    "Data Structures/_Status.md",
-    "Graph/DSU.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
     "Geometry/GeoReda",
-    "Bits",
-    "Data Structures/Segment Tree",
+    "_5_Bits",
+    "_1_Data Structures/Segment Tree",
     "Other",
     "Graph",
     "Flows",
