@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_6_Geometry/_Status.md",
+                "file": "_7_Bits/_Status.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_6_Geometry/_Status.md",
+                "file": "_7_Bits/_Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_6_Geometry/_Status.md",
+                "file": "_7_Bits/_Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_6_Geometry/_Status.md"
+                "file": "_7_Bits/_Status.md"
               }
             }
           }
@@ -185,10 +185,20 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "_7_Bits/_2_ Generate All Submasks.md",
+    "_7_Bits/_Status.md",
+    "_7_Bits/_3_ Xor from 1 to n.md",
+    "_7_Bits/_1_ __BuiltIn_functions().md",
+    "_8_Other/_Status.md",
+    "README.md",
+    "Silence Vault.md",
+    "To add.md",
+    "_8_Other/Ternary search.md",
+    "_1_Data Structures/_Status.md",
+    "_6_Geometry/_Status.md",
     "_6_Geometry/_4_Polygon Centroid.md",
     "_6_Geometry/_3_Areas.md",
     "_6_Geometry/_2_ Basic Funcs.md",
-    "_6_Geometry/_Status.md",
     "_6_Geometry/_1_Defines and Point.md",
     "_6_Geometry/_8_ Properties of Regular polygons.md",
     "_6_Geometry/_7_ CosineRule.md",
@@ -201,17 +211,7 @@
     "_5_Flows/_5_ MCMF.md",
     "_5_Flows/_4_ Max Bipartite Matching.md",
     "_5_Flows/_3_ Hungarian.md",
-    "_5_Flows/_2_ Edmonds Karp.md",
-    "_5_Flows/_1_ Dinic.md",
-    "_4_Graph/_Status.md",
-    "_4_Graph/_4_ SMST O(nlog(n)).md",
-    "_4_Graph/_3_ Euler tour.md",
-    "_4_Graph/_2_ Bellmanford.md",
-    "_4_Graph/_1_ Tarjan Reda/_3_ Articulation Points.md",
-    "_4_Graph/_1_ Tarjan Reda/_2_Bridges.md",
-    "_4_Graph/_1_ Tarjan Reda/_1_Tarjan SCC.md",
     "_4_Graph/_1_ Tarjan Reda",
-    "_1_Data Structures/_3_DSU.md",
     "others",
     "others",
     "Geometry/GeoReda/Untitled",
