@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Silence Vault.md",
+                "file": "_6_Geometry/_2_ Basic Funcs.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Silence Vault.md",
+                "file": "_6_Geometry/_2_ Basic Funcs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Silence Vault.md",
+                "file": "_6_Geometry/_2_ Basic Funcs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Silence Vault.md"
+                "file": "_6_Geometry/_2_ Basic Funcs.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   },
   "active": "393b565be5834e88",
   "lastOpenFiles": [
+    "_6_Geometry/_1_Defines and Point.md",
+    "Silence Vault.md",
     "README.md",
     "Template.md",
     "_8_Other/_Status.md",
@@ -203,14 +205,12 @@
     "_7_Bits/_2_ Generate All Submasks.md",
     "_7_Bits/_3_ Xor from 1 to n.md",
     "_7_Bits/_1_ __BuiltIn_functions().md",
-    "Silence Vault.md",
     "To add.md",
     "_1_Data Structures/_Status.md",
     "_6_Geometry/_Status.md",
     "_6_Geometry/_4_Polygon Centroid.md",
     "_6_Geometry/_3_Areas.md",
     "_6_Geometry/_2_ Basic Funcs.md",
-    "_6_Geometry/_1_Defines and Point.md",
     "_4_Graph/_1_ Tarjan Reda",
     "others",
     "others",

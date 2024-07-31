@@ -7,6 +7,15 @@ inline ld angle(P a)
 {  
     return atan2((ld)a.y, (ld)a.x);  
 }  
+
+// get acute directed angle from a to b  
+ld gda(P a, P b)  
+{  
+    ld ang = abs(angle(a) - angle(b));  
+    ang = min(ang, 2 * PI - ang);  
+    return ang * ((a ^ b) > 0 ? 1 : -1);  
+}
+
 ld linePointDis(P l1, P l2, P p)  
 {  
     ot area = abs(vec(p, l1) ^ vec(p, l2));  
