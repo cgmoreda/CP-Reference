@@ -1,5 +1,5 @@
 const int N = 1e5 + 5, MOD1 = 1e9 + 7, MOD2 = 1e9 + 9;
-int pw1[N], inv1[N], pw2[N], inv2[N], BASE;
+	int pw1[N], inv1[N], pw2[N], inv2[N], BASE;
 
 bool isPrime(int x) {
     for (int i = 2; i * i <= x; i++) {

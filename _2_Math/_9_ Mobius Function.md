@@ -7,7 +7,7 @@ void mobius() {
     mob[0] = 0;
     mob[2] = -1;
     for (int i = 4; i < N; i += 2) {
-        mob[i] = (i & 3) ? -1 : 0;
+        mob[i] *= (i & 3) ? -1 : 0;
         prime[i] = 0;
     }
     for (int i = 3; i < N; i += 2)

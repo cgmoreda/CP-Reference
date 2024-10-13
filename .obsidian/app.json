@@ -1,1 +1,11 @@
-{}
+{
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "autoPairMarkdown": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "autoConvertHtml": false,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "showRibbon": true
+}
