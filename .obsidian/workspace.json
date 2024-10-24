@@ -9,74 +9,19 @@
         "children": [
           {
             "id": "51ba3c6a75f8c2fc",
-            "id": "3d2e1c0452487f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_1_Data Structures/_Status.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba758a9508fbc679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_1_Data Structures/_Status.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b6c4716771d539d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_6_Geometry/_9_Intersections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f01c316761c3da2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_6_Geometry/_10_ Line Sweep Mostafa Saad.md",
-                "file": "Data Structures/Ordered Set.md",
+                "file": "_1_Data Structures/_8.1_ Mo's By Sa3d.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ordered Set"
-            }
-          },
-          {
-            "id": "5a874a0299398bab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Strings/Suffix Array Faster.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Suffix Array Faster"
+              "title": "_8.1_ Mo's By Sa3d"
             }
           }
-        ],
-        "currentTab": 3
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 300
   },
   "right": {
     "id": "4373bbcebd9d4102",
@@ -217,79 +162,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f01c316761c3da2b",
-  "active": "5a874a0299398bab",
+  "active": "51ba3c6a75f8c2fc",
   "lastOpenFiles": [
+    "Strings/Suffix Array Faster.md",
+    "_1_Data Structures/_8.1_ Mo's By Sa3d.md",
+    "_8_Other/_Status.md",
+    "_8_Other/_9_ Ternary search.md",
+    "_8_Other/_8_ Random.md",
+    "_8_Other/_7_ Next element.md",
+    "_8_Other/_6_ LIS O(nlogn).md",
+    "_8_Other/_5_ DP SOS.md",
+    "_8_Other/_4_ DP digits.md",
+    "_8_Other/_3_ CompareFunction for ds.md",
+    "_8_Other/_2_ CheckTime.md",
+    "_8_Other/_1_ Base Conversion.md",
+    "_8_Other/_10_ VectorHasher.md",
+    "_8_Other",
+    "_7_Bits/_Status.md",
+    "_7_Bits/_3_ Xor from 1 to n.md",
+    "_7_Bits/_2_ Generate All Submasks.md",
+    "_7_Bits/_1_ __BuiltIn_functions().md",
+    "_7_Bits",
+    "_6_Geometry/_Status.md",
     "_6_Geometry/_9_Intersections.md",
-    "_6_Geometry/_10_ Line Sweep Mostafa Saad.md",
+    "_6_Geometry/_8_ Properties of Regular polygons.md",
+    "_6_Geometry/_7_ CosineRule.md",
     "_6_Geometry/_6_ Convex Hull.md",
     "_6_Geometry/_5_ Lattice Points.md",
     "_6_Geometry/_4_Polygon Centroid.md",
-    "_6_Geometry/_2_ Basic Funcs.md",
-    "Template.md",
-    "2024-10-13.md",
-    "Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "_3_ Strings/_6_ Suffix Array.md",
-    "_2_Math/_9_ Mobius Function.md",
     "_6_Geometry/_3_Areas.md",
-    "_6_Geometry/_1_Defines and Point.md",
-    "_1_Data Structures/_1_Ordered Set.md",
-    "_8_Other/_7_ Next element.md",
-    "_1_Data Structures/_4_ Segment Tree/_1_Segment Tree with lazy.md",
-    "To add.md",
-    "_8_Other/_9_ Ternary search.md",
-    "_8_Other/_10_ VectorHasher.md",
-    "_8_Other/_Status.md",
-    "Silence Vault.md",
-    "README.md",
-    "_3_ Strings/_5_Hashing.md",
-    "_3_ Strings/_Status.md",
-    "_6_Geometry/_Status.md",
-    "_8_Other/_8_ Random.md",
-    "_8_Other/Random Numbers.md",
+    "_6_Geometry/_2_ Basic Funcs.md",
+    "_6_Geometry",
+    "_5_Flows",
     "_4_Graph/_1_ Tarjan Reda",
-    "others",
-    "Strings/Suffix Array.md",
-    "Strings/Suffix Array Faster.md",
-    "Data Structures/Centroid Decomposition.md",
-    "Geometry/GeoReda/_1_Defines and Point.md",
-    "Geometry/GeoReda/Squares.md",
-    "Geometry/_Status.md",
-    "Geometry/GeoReda/SomeRules.md",
-    "Geometry/GeoReda/Lattice Points.md",
-    "Geometry/GeoReda/CircleCenter.md",
-    "Geometry/GeoReda/Basic Funcs.md",
-    "Geometry/GeoReda/Areas.md",
-    "Math/Matrix power.md",
-    "Data Structures/Segment Tree/Segment Tree with lazy.md",
-    "Strings/trie (abdosaad).md",
-    "Graph/Tarjan SCC(Reda).md",
-    "Data Structures/trie (abdosaad).md",
-    "Other/Ternary search.md",
-    "Other/CheckTime.md",
-    "Other/CompareFunction for ds.md",
-    "Other/dp digits.md",
-    "Strings/Aho Corasick.md",
-    "Strings/Z algorithm.md",
-    "Strings/Suffix Automation.md",
-    "Strings/KMP.md",
-    "Strings/Hashing.md",
-    "Data Structures/DSU.md",
-    "Geometry/GeoReda",
-    "Other",
-    "Graph",
-    "Geometry",
-    "Bits",
-    "others/Untitled",
-    "others",
-    "Geometry/GeoReda/Untitled",
-    "_6_Geometry/GeoReda",
-    "_7_Bits",
-    "_1_Data Structures/_4_ Segment Tree",
-    "_8_Other",
     "_4_Graph",
-    "_5_Flows"
+    "_3_ Strings",
+    "_2_Math",
+    "_1_Data Structures/_4_ Segment Tree",
+    "_1_Data Structures"
   ]
 }
