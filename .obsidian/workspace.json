@@ -9,10 +9,48 @@
         "children": [
           {
             "id": "51ba3c6a75f8c2fc",
+            "id": "3d2e1c0452487f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+                "file": "_1_Data Structures/_Status.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba758a9508fbc679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_1_Data Structures/_Status.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b6c4716771d539d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_6_Geometry/_9_Intersections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f01c316761c3da2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_6_Geometry/_10_ Line Sweep Mostafa Saad.md",
                 "file": "Data Structures/Ordered Set.md",
                 "mode": "source",
                 "source": false
@@ -35,6 +73,8 @@
               "title": "Suffix Array Faster"
             }
           }
+        ],
+        "currentTab": 3
         ],
         "currentTab": 1
       }
@@ -92,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 412.5
   },
   "right": {
     "id": "4373bbcebd9d4102",
@@ -177,8 +217,40 @@
       "command-palette:Open command palette": false
     }
   },
+  "active": "f01c316761c3da2b",
   "active": "5a874a0299398bab",
   "lastOpenFiles": [
+    "_6_Geometry/_9_Intersections.md",
+    "_6_Geometry/_10_ Line Sweep Mostafa Saad.md",
+    "_6_Geometry/_6_ Convex Hull.md",
+    "_6_Geometry/_5_ Lattice Points.md",
+    "_6_Geometry/_4_Polygon Centroid.md",
+    "_6_Geometry/_2_ Basic Funcs.md",
+    "Template.md",
+    "2024-10-13.md",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "_3_ Strings/_6_ Suffix Array.md",
+    "_2_Math/_9_ Mobius Function.md",
+    "_6_Geometry/_3_Areas.md",
+    "_6_Geometry/_1_Defines and Point.md",
+    "_1_Data Structures/_1_Ordered Set.md",
+    "_8_Other/_7_ Next element.md",
+    "_1_Data Structures/_4_ Segment Tree/_1_Segment Tree with lazy.md",
+    "To add.md",
+    "_8_Other/_9_ Ternary search.md",
+    "_8_Other/_10_ VectorHasher.md",
+    "_8_Other/_Status.md",
+    "Silence Vault.md",
+    "README.md",
+    "_3_ Strings/_5_Hashing.md",
+    "_3_ Strings/_Status.md",
+    "_6_Geometry/_Status.md",
+    "_8_Other/_8_ Random.md",
+    "_8_Other/Random Numbers.md",
+    "_4_Graph/_1_ Tarjan Reda",
+    "others",
     "Strings/Suffix Array.md",
     "Strings/Suffix Array Faster.md",
     "Data Structures/Centroid Decomposition.md",
@@ -212,8 +284,12 @@
     "Bits",
     "others/Untitled",
     "others",
-    "Data Structures/Segment Tree",
-    "Flows",
-    "Math"
+    "Geometry/GeoReda/Untitled",
+    "_6_Geometry/GeoReda",
+    "_7_Bits",
+    "_1_Data Structures/_4_ Segment Tree",
+    "_8_Other",
+    "_4_Graph",
+    "_5_Flows"
   ]
 }
