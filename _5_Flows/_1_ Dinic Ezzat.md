@@ -1,7 +1,8 @@
 #define INF 1e9  
-//O(V*V*E) more faster
-struct Dinic { //0-based{  
-    struct flowEdge {  
+  
+//O(V*V*E) more faster  
+struct Dinic { //0-based{    
+struct flowEdge {  
         int from, to;  
         ll cap, flow = 0;  
   
@@ -10,9 +11,9 @@ struct Dinic { //0-based{
         }  
     };  
   
-    vector<flowEdge> edges;  
+    vector <flowEdge> edges;  
     int n, m = 0, source, sink;  
-    vector<vector<int>> adj;  
+    vector <vector<int>> adj;  
     vector<int> level, ptr;  
     vector<int> d;  
   
@@ -79,7 +80,7 @@ struct Dinic { //0-based{
         return max_flow;  
     }  
   
-    bool dfs2(int u, vector<int> &path, vector<vector<int> > &v) {  
+    bool dfs2(int u, vector<int> &path, vector <vector<int>> &v) {  
         path.push_back(u);  
         if (u == sink) {  
             v.push_back(path);  
@@ -104,9 +105,9 @@ struct Dinic { //0-based{
         return ok;  
     }  
   
-    vector<vector<int> > flows() {  
+    vector <vector<int>> flows() {  
         d = vector<int>(n, -1);  
-        vector<vector<int> > ret;  
+        vector <vector<int>> ret;  
         vector<int> path;  
         while (dfs2(source, path, ret));  
         return ret;  
