@@ -2,10 +2,10 @@ struct fenwik_tree
 {  
     int n;  
     vector<int> fen;  
-    fenwik_tree(int m)  
+    fenwik_tree(int _n)  
     {  
-       fen = vector<int>(m + 1);  
-       n = m;  
+       fen = vector<int>(_n + 1);  
+       n = _n;  
     }
     int sum(int p)  
     {  
