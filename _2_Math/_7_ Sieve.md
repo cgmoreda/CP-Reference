@@ -10,7 +10,7 @@ void sieve()
 	{
 		if (composite[i])continue;
 		primes.push_back(i);
-		for (int j = 2; j < N; j += i)
+		for (int j = i; j < N; j += i)
 			composite[j] = true;
 	}
 }
