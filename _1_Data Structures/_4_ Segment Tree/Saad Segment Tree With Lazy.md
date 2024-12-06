@@ -1,33 +1,29 @@
-Segment tree lazy
-/*
-for efficient memory (2*n)
-#define LEFT (idx+1)
-#define MID ((start+end)>>1)
-#define RIGHT (idx+((MID-start+1)<<1))
-*/
+
 template<typename T>
 class segment_tree {//1-based
 #define LEFT (idx<<1)
 #define RIGHT (idx<<1|1)
 #define MID ((start+end)>>1)
+#define lchild LEFT, start, MID, from, to
+#define rchild RIGHT, MID + 1, end, from, to
+#define in from <= start && end <= to
+#define out to < start || end < from
+#define para int idx, int start, int end
+
     int n;
-    vector<T> tree;
-    vector<T> lazy;
-
-    T merge(const T &left, const T &right) {
+    vector<T> tree,lazy;
     
+    T merge(const T &left, const T &right) {
     }
-
-    inline void pushdown(int idx, int start, int end) {
+    
+    inline void pushdown( para ) {
         if (lazy[idx] == 0)
             return;
-        //update tree[idx] with lazy[idx]
         tree[idx] += lazy[idx];
         if (start != end) {
             lazy[LEFT] += lazy[idx];
             lazy[RIGHT] += lazy[idx];
         }
-        //clear lazy
         lazy[idx] = 0;
     }
 
@@ -35,7 +31,7 @@ class segment_tree {//1-based
         tree[idx] = merge(tree[LEFT], tree[RIGHT]);
     }
 
-    void build(int idx, int start, int end) {
+    void build(para) {
         if (start == end)
             return;
         build(LEFT, start, MID);
@@ -43,7 +39,7 @@ class segment_tree {//1-based
         pushup(idx);
     }
 
-    void build(int idx, int start, int end, const vector<T> &arr) {
+    void build(para, const vector<T> &arr) {
         if (start == end) {
             tree[idx] = arr[start];
             return;
@@ -53,41 +49,37 @@ class segment_tree {//1-based
         pushup(idx);
     }
 
-    T query(int idx, int start, int end, int from, int to) {
+    T query(para, int from, int to) {
         pushdown(idx, start, end);
-        if (from <= start && end <= to)
+        if (in)
             return tree[idx];
         if (to <= MID)
-            return query(LEFT, start, MID, from, to);
+            return query(lchild);
         if (MID < from)
-            return query(RIGHT, MID + 1, end, from, to);
-        return merge(query(LEFT, start, MID, from, to),
-                     query(RIGHT, MID + 1, end, from, to));
+            return query(rchild);
+        return merge(query(lchild),query(rchild));
     }
 
-    void update(int idx, int start, int end, int lq, int rq,
-                const T &val) {
+    void update(para, int from, int to,const T &val) {
         pushdown(idx, start, end);
-        if (rq < start || end < lq)
+        if (out)
             return;
-        if (lq <= start && end <= rq) {
-            lazy[idx] += val;//update lazy
+        if (in) {
+            lazy[idx] += val;
             pushdown(idx, start, end);
             return;
         }
-        update(LEFT, start, MID, lq, rq, val);
-        update(RIGHT, MID + 1, end, lq, rq, val);
+        update(lchild,val);
+        update(rchild, val);
         pushup(idx);
     }
 
 public:
     segment_tree(int n) : n(n), tree(n << 2), lazy(n << 2) {
     }
-
     segment_tree(const vector<T> &v) {
         n = v.size() - 1;
-        tree = vector<T>(n << 2);
-        lazy = vector<T>(n << 2);
+        tree = lazy = vector<T>(n << 2);
         build(1, 1, n, v);
     }
 
@@ -98,8 +90,4 @@ public:
     void update(int l, int r, const T &val) {
         update(1, 1, n, l, r, val);
     }
-
-#undef LEFT
-#undef RIGHT
-#undef MID
 };
