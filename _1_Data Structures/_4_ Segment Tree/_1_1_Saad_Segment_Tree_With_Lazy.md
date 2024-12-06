@@ -1,4 +1,3 @@
-
 template<typename T>
 class segment_tree {//1-based
 #define LEFT (idx<<1)
