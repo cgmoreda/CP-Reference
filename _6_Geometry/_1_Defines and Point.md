@@ -5,7 +5,7 @@
 #define angle(a) (atan2((a).y, (a).x))  
 #define slope(p) (((p).y)/((p).x))  
 #define vec(a, b) ((b)-(a))  
-#define len(v) (hypot((v).y, (v).x))  
+#define len(v) (hypotl((v).y, (v).x))  
   
 struct P  
 {  
