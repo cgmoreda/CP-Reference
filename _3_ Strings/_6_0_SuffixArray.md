@@ -177,7 +177,8 @@ int longest_common_substring(const vector<string> &v) {
     }  
     return mx;  
 }  
-  
+// wrong 
+												
 string kth_substring(string s, int k) { //1-based,repated  
     int n = s.size();  
     suffix_array sa(s);  

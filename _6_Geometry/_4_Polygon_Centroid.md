@@ -1,4 +1,3 @@
-
 P getCentroid(vector<P>& p)  
 {  
     ld x, y;  

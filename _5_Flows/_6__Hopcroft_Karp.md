@@ -1,4 +1,3 @@
-
 //Hopcroft-Karp algorithm for maximum bipartite matching
 //O(sqrt(V) * E)
 struct Hopcroft_Karp {//1-based
