@@ -1,3 +1,4 @@
+```cpp
 	#include<bits/stdc++.h> //Silence | ft. Reda , AbdoSa3d , Nourhan  
 	  
 	using namespace std;
@@ -22,3 +23,4 @@
 	       solve();  
 	  
 	}
+```
