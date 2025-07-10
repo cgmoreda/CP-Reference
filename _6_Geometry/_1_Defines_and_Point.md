@@ -1,3 +1,4 @@
+```cpp
 #define ot long long  
 #define ld long double  
 #define sq(x) ((x)*(x))  
@@ -42,8 +43,8 @@ struct P
        return { x * val, y * val };  
     }  
   
-    // cross product   
-ot operator^(P const& he) const  
+    // cross product  
+    ot operator^(P const& he) const  
     {  
        return x * he.y - y * he.x;  
     }  
@@ -52,11 +53,6 @@ ot operator^(P const& he) const
     {  
        return x * he.x + y * he.y;  
     }  
-    ld dis(P he)  
-    {  
-       return sqrt(sq(he.x - x) + sq(he.y - y));  
-    }  
-  
     //angle in radians  
     P rotate(ot angle) const  
     {  
@@ -64,4 +60,6 @@ ot operator^(P const& he) const
        ot sin_theta = sin(angle);  
        return { x * cos_theta - y * sin_theta, x * sin_theta + y * cos_theta };  
     }  
-};  
+};
+
+```
