@@ -1,4 +1,11 @@
+```cpp
   
+#define outofrange l > e || s > r  
+#define inrange l <= s && e <= r  
+#define lchild p * 2, s, (s+e)/2  
+#define rchild p * 2 + 1, (s+e)/2 + 1, e  
+  
+const int mod = 1e9 + 7;  
 static const int N = 3e5 + 500;  
 // if needed more than one thingy or complex merging  
 struct W  
@@ -55,3 +62,4 @@ W get(int p = 1, int s = 1, int e = n)
        return seg[p];  
     return get(lchild) + get(rchild);  
 }
+```
