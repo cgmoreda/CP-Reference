@@ -1,4 +1,5 @@
-
+```cpp
+  
 void convexHull(vector<P> p, vector<P>& hull)  
 {  
   
@@ -32,4 +33,6 @@ void convexHull(vector<P> p, vector<P>& hull)
        reverse(all(p));  
        hull.pop_back();  
     }  
-}  
+}
+
+```
