@@ -1,3 +1,4 @@
+```cpp
 
 #define outofrange l > e || s > r
 #define inrange l <= s && e <= r
@@ -36,3 +37,5 @@ W get(int p = 1, int s = 1, int e = n)
 		return seg[p];
 	return get(lchild) + get(rchild);
 }
+
+```
