@@ -1,3 +1,4 @@
+```cpp
 struct matrix{
     int a[2][2];
 
@@ -54,3 +55,6 @@ matrix fpow(matrix &x, ll n) {
     return ans;
 }
 
+
+
+```
