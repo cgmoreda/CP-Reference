@@ -1,8 +1,10 @@
 
+```cpp
 bool collinear(P a, P b, P c)  
 {  
     return (vec(a, b) ^ vec(a, c)) == 0;  
 }
+```
 inline ld angle(P a)  
 {  
     return atan2((ld)a.y, (ld)a.x);  
@@ -91,6 +93,7 @@ bool isPointOnSegment(P const& a, P const& l1, P const& l2)
     return collinear(a, l1, l2) && pibb(a, l1, l2);  
 }  
 
+```cpp
 P getCircleCenter(P A, P B, P C) {  
     if (isCollinear(A, B, C)) {  
        collinear = true;  
@@ -102,6 +105,7 @@ P getCircleCenter(P A, P B, P C) {
     ld Uy = ((A.x * A.x + A.y * A.y) * (C.x - B.x) + (B.x * B.x + B.y * B.y) * (A.x - C.x) + (C.x * C.x + C.y * C.y) * (B.x - A.x)) / D;  
     return {Ux, Uy};  
 }
+```
   
 bool issqare(P a, P b, P c, P d)  
 {  
