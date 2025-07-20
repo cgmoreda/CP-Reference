@@ -1,3 +1,4 @@
+```cpp
 //sieve--> get primes from 0 to N
 
 const int N = 1e6 + 5;
@@ -14,11 +15,10 @@ void sieve()
 			composite[j] = true;
 	}
 }
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////
+```
 
 linear seive -->get primes from 0 to N 
-
+```cpp
 const int N = 1e6;
 vector <int> primes;
 bool composite[N];
@@ -35,11 +35,10 @@ void sieve()
 		}
 	}
 }
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
+```
 
 get prime factors using sieve (less than sqrt(n)) متنساش كود سبف قبلها
-
+```cpp
 vector<int> prime_fact(int n)
 {
 	vector<int>temp;
@@ -51,11 +50,10 @@ vector<int> prime_fact(int n)
 	if (n > 1)temp.push_back(n);
 	return temp;
 }
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+```
 
 get divisors for all numbers from 1 to N
-
+```cpp
 const int N = 1e5+5;
 vector<vector<int>>divisors(N);
 void generate_divisors() 
@@ -66,10 +64,11 @@ void generate_divisors()
 			divisors[j].push_back(i);
 	}
 }
-/////////////////////////////////////////////////////////////////////////////////////////////////////
+```
 
 segmented_sieve --> get primes in range ex(1e9:1e9+1e6) o[(r-l)*loglog(r)+ o(sieve)]
  rمتنساش تستخدم سيف قبله لحد جذر ال
+```cpp
  const int N=1e5+5;
  bool composite[N];
 void segmented_sieve()
@@ -81,11 +80,10 @@ void segmented_sieve()
 	}
 	if(l==1)composite[0]=1;
 }
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////
+```
 
 //Linear Sieve  
+```cpp
 const int N = 1e7;  
 int lpf[N + 1];  
 vector<int> prime;  
@@ -102,3 +100,4 @@ void sieve() {
         }  
     }  
 }
+```

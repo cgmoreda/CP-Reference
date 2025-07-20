@@ -1,3 +1,4 @@
+```cpp
 ll exgcd(ll a,ll b, ll  &x, ll &y){
     if (a<0||b<0){
         ll g=exgcd(abs(a),abs(b),x,y);
@@ -41,3 +42,4 @@ pair<ll,ll>CRT(const vector<ll>&a, const vector<ll>&m){
     return {rem,mod};
 
 }
+```

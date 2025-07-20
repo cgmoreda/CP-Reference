@@ -1,4 +1,4 @@
-
+```cpp
 const int N = 3e5 + 9;
 
 const double PI = acos(-1);
@@ -63,3 +63,4 @@ vector<long long> multiply(vector<int>& a, vector<int>& b)
 	while ((int)ret.size() > 1 && ret.back() == 0) ret.pop_back();
 	return ret;
 }
+```

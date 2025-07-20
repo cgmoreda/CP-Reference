@@ -1,3 +1,4 @@
+```cpp
 const int N = 1e6 + 100;  
 const int mod = 1e9 + 7;  
 ll fact[N];  
@@ -17,3 +18,4 @@ ll nCr(int n, int r) {
     return (((fact[n] * invfact[r]) % mod) * invfact[n - r]) %  
            mod;  
 }
+```

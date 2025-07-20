@@ -1,12 +1,15 @@
+```cpp
 const int N = 2e6 + 10, MOD = 1e9 + 7;
 int mob[N];
 bool prime[N];
 void mobius() {
+	// fix this ya 3amy @abdosa3d
     memset(mob, 1, sizeof mob);
     memset(prime + 2, 1, sizeof(prime) - 2);
     mob[0] = 0;
     mob[2] = -1;
     for (int i = 4; i < N; i += 2) {
+	    // fix this too 
         mob[i] *= (i & 3) ? -1 : 0;
         prime[i] = 0;
     }
@@ -19,3 +22,4 @@ void mobius() {
             }
         }
 }
+```

@@ -1,3 +1,4 @@
+```cpp
 int N = 1e6 + 3, mod = 1e6 + 3;
 // pre in O(mod),
 struct combi
@@ -32,3 +33,4 @@ int lucas(ll n, ll r)
 	if (n < mod) return C.ncr(n, r);
 	return 1LL * lucas(n / mod, r / mod) * lucas(n % mod, r % mod) % mod;
 }
+```

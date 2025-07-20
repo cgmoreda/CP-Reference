@@ -7,6 +7,7 @@
 * nCr(n,r) = pascal[n][r]  
 * catalan[n] = nCr(2n,n)/(n+1)  
 */  
+```cpp
 ull nCr(int n, int r) {  
     if (r > n)  
         return 0;  
@@ -18,7 +19,9 @@ ull nCr(int n, int r) {
     }  
     return ans;  
 }  
-  
+```
+
+  ```cpp
 ull nPr(int n, int r) {  
     if (r > n)  
         return 0;  
@@ -28,7 +31,9 @@ ull nPr(int n, int r) {
     return p;  
 }  
   
+```
 // return catalan number n-th using dp O(n^2)//max = 35 then overflow  
+```cpp
 vector<ull> catalanNumber(int n) {  
     vector<ull> catalan(n + 1);  
     catalan[0] = catalan[1] = 1;  
@@ -39,8 +44,11 @@ vector<ull> catalanNumber(int n) {
     }  
     return catalan;  
 }  
+```
   
 // count number of paths in matrix n*m // go to right or down only  
+```cpp
 ull countNumberOfPaths(int n, int m) {  
     return nCr(n + m - 2, n - 1);  
 }
+```

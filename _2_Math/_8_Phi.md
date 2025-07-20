@@ -1,3 +1,4 @@
+```cpp
 const int N=1e6+5;
 int phi[N];
 void pre(){
@@ -11,8 +12,9 @@ void pre(){
     }
 
 }
+```
 
-
+```cpp
 ll phi(ll n){
     ll p_to_k, relative_primes=1;
     for (ll i=2,d=1;i*i<=n;i+=d,d=2){
@@ -31,8 +33,9 @@ ll phi(ll n){
     }
     return relative_primes;
 }
+```
 
-
+```cpp
 ll phi(ll n) {
     ll result = n;
     for (ll i = 2; i * i <= n; i++) {
@@ -46,3 +49,4 @@ ll phi(ll n) {
         result -= result / n;
     return result;
 }
+```
