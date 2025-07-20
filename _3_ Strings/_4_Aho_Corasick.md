@@ -1,3 +1,4 @@
+```cpp
 struct aho_corasick{  
     struct trie_node {  
           
@@ -78,3 +79,4 @@ struct aho_corasick{
         return rt;  
     }  
 };
+```

@@ -1,3 +1,4 @@
+```cpp
 struct suffix_automaton {  
     struct state {  
         int len, link = 0, cnt = 0;  
@@ -111,3 +112,4 @@ struct suffix_automaton {
         return t.substr(idx - mx + 1, mx);  
     }  
 };
+```

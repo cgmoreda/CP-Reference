@@ -1,3 +1,4 @@
+```cpp
   
 string s, p;  
 int f[(int)(1e6+100)];  
@@ -31,3 +32,4 @@ void build()
        f[i] = len;  
     }  
 }
+```

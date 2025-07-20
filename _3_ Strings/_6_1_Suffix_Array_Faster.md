@@ -1,3 +1,4 @@
+```cpp
 class suffix_array {  
     const static int alpha = 128;  
     int getOrder(int a) const {  
@@ -48,3 +49,4 @@ public:
         } while (order[suf[n - 1]] != n - 1);  
     }  
 };
+```

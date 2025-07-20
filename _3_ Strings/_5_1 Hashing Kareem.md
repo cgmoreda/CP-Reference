@@ -1,3 +1,4 @@
+```cpp
 class Hashing {
     const ll MOD = (1ll << 61) - 1;
     vector<ll> p, h;
@@ -21,3 +22,4 @@ ll rng(ll l = (1ll << 40), ll r = (1ll << 60)) {
     return std::uniform_int_distribution<long long>(l, r)(gen);
 }
 ll Hashing::base = rng();
+```

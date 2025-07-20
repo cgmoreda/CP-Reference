@@ -1,3 +1,4 @@
+```cpp
 const int N = 1e5 + 5, MOD1 = 1e9 + 7, MOD2 = 1e9 + 9;
 	int pw1[N], inv1[N], pw2[N], inv2[N], BASE;
 
@@ -59,3 +60,4 @@ struct Hash {
                          fix(1ll * inv2[l] * (pre[r + 1].second - pre[l].second), MOD2));
     }
 };
+```

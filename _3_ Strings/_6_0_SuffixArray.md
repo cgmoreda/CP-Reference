@@ -1,3 +1,4 @@
+```cpp
 class suffix_array {  
     int getOrder(int a) const {  
         return (a < (int) order.size() ? order[a] : 0);  
@@ -202,3 +203,4 @@ string kth_substring(string s, int k) { //1-based,repated
     }  
     assert(0);  
 }
+```

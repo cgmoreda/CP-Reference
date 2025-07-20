@@ -1,3 +1,4 @@
+```cpp
 struct SuffixArray {
     const static int alpha = 128, LOG = 20;
     vector<int> suf, order, newOrder, lcp, logs;
@@ -103,3 +104,4 @@ struct SuffixArray {
         return (s[l1] > s[l2] ? 1 : -1);
     }
 };
+```

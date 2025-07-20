@@ -1,3 +1,4 @@
+```cpp
 struct trie
 {
     trie* nxt[26]{};
@@ -58,3 +59,4 @@ struct trie
     }
 };
 
+```
