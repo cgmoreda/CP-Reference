@@ -1,3 +1,4 @@
+```cpp
 const ll inf = 1LL << 61;
 
 struct Dinic {
@@ -93,3 +94,4 @@ struct Dinic {
         return flow;
     }
 };
+```

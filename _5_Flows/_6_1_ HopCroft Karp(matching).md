@@ -1,3 +1,4 @@
+```cpp
   
 struct HopcroftKarp {  
     static const int inf = 1e9;  
@@ -57,3 +58,4 @@ struct HopcroftKarp {
         return ans;  
     }  
 };
+```

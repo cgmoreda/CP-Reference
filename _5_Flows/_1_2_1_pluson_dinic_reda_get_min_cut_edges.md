@@ -1,3 +1,4 @@
+```cpp
 void dfs2(int u, int par) {  
     if (reached[u])  
         return;  
@@ -28,3 +29,4 @@ vector<ii > get_cut(int _s, int _t) {
     }  
     return ret;  
 }
+```

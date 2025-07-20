@@ -1,3 +1,4 @@
+```cpp
 //O( V * E * E)  
 #define INF 0x3f3f3f3f3f3f3f3fLL  
 int n;  
@@ -37,3 +38,4 @@ int Edmonds_Karp(int source, int sink) {
     }  
     return max_flow;  
 }
+```

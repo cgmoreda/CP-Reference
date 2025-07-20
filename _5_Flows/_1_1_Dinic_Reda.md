@@ -1,3 +1,4 @@
+```cpp
 struct Dinic
 {
 	struct edge
@@ -101,3 +102,4 @@ void solve()
 	}
 	cout << F.max_flow(1, n) << endl;
 }
+```
