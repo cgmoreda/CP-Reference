@@ -1,3 +1,4 @@
+```cpp
 void genAllSubmask(int mask) {  
     for (int subMask = mask;; subMask = (subMask - 1) & mask) {  
 //code  
@@ -5,3 +6,4 @@ void genAllSubmask(int mask) {
             break;  
     }  
 }
+```

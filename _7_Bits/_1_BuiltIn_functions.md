@@ -1,4 +1,4 @@
-
+```cpp
 ll mxb(ll x)  
 {  
    if (!x)  
@@ -6,10 +6,11 @@ ll mxb(ll x)
    return 1LL << (63 - __builtin_clzll(x));  
 }
 // count leading zeros
-__builtin_clzll(x)\
+__builtin_clzll(x)
 
 // count on bits 
-__builtin_popcountll()
+__builtin_popcountll(x)
 
-get lowbit (x&-x)
+// to get lowbit (x&-x)
 
+```
