@@ -1,3 +1,4 @@
+```cpp
   
 vsi G;  
 vi dn, dlow, pr;  
@@ -34,3 +35,4 @@ void solve()
     for (int i = 0; i < n; i++)if (dn[i] == -1)bridges(i);  
 // out -> set with all bridges  
 }
+```

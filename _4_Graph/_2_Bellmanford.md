@@ -1,3 +1,4 @@
+```cpp
 struct edge {  
     int from, to, weight;  
   
@@ -49,3 +50,4 @@ void bellmanford(int n, int src, int dest = -1) {
     }  
     reverse(path.begin(), path.end());  
 }
+```

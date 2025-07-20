@@ -1,3 +1,4 @@
+```cpp
   
 #define vi vector<int>  
 #define vvi vector<vector<int>>  
@@ -48,3 +49,4 @@ void solve()
           arc_point.insert(i);  
     }  
 }
+```
