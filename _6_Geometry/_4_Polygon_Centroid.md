@@ -1,3 +1,4 @@
+```cpp  
 P getCentroid(vector<P>& p)  
 {  
     ld x, y;  
@@ -13,5 +14,6 @@ P getCentroid(vector<P>& p)
     }  
     x /= tarea;  
     y /= tarea;  
-    return P(x, y);  
-}  
+    return { x, y };  
+}
+```

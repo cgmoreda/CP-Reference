@@ -5,25 +5,27 @@ bool collinear(P a, P b, P c)
     return (vec(a, b) ^ vec(a, c)) == 0;  
 }
 ```
-inline ld angle(P a)  
-{  
-    return atan2((ld)a.y, (ld)a.x);  
-}  
 
-// get acute directed angle from a to b  
+**get acute directed angle from a to b**  
+```cpp
 ld gda(P a, P b)  
 {  
     ld ang = abs(angle(a) - angle(b));  
     ang = min(ang, 2 * PI - ang);  
     return ang * ((a ^ b) > 0 ? 1 : -1);  
 }
+```
 
+```cpp
 ld linePointDis(P l1, P l2, P p)  
 {  
     ot area = abs(vec(p, l1) ^ vec(p, l2));  
     ld base = len(vec(l1, l2));  
     return area / base;  
 }  
+```
+
+```cpp
 ld segmentPointDis(P l1, P l2, P p)  
 {  
     P perp = vec(l1, l2);  
@@ -35,7 +37,9 @@ ld segmentPointDis(P l1, P l2, P p)
        return min(len(vec(p, l1)), len(vec(p, l2)));  
     return linePointDis(l1, l2, p);  
 }  
+```
 
+```cpp
 struct cmp  
 {  
     P about;  
@@ -51,6 +55,9 @@ struct cmp
        return cr > 0;  
     }  
 };  
+```
+
+```cpp
 void sortAntiClockWise(vector<P>& pnts)  
 {  
     P mn(*min_element(all(pnts)));  
@@ -63,10 +70,12 @@ inline bool pibb(P const& a, P const& b1, P const& b2)
        a.y >= min(b1.y, b2.y) &&  
        a.y <= max(b1.y, b2.y);  
 }  
-  
+```  
+
+```cpp
 bool lineIntersection(P p1, P p2, P p3, P p4, P& sec)  
 {  
-    ld denom = (p1.x - p2.x) * (p3.y - p4.y) - (p1.y - p2.y) * (p3.x - p4.x);  
+    ld denom = (p1.x - p2.x) * (p3.y - p4.y) - (p1.y - p2.y) * (p3.x -p4.x);  
   
     if (abs(denom) < eps)  
        return false;  
@@ -77,7 +86,9 @@ bool lineIntersection(P p1, P p2, P p3, P p4, P& sec)
   
     return true;  
 }  
+```
   
+```cpp
 bool segmentsIntersection(P l1, P l2, P k1, P k2, P& sec)  
 {  
     if (lineIntersection(l1, l2, k1, k2, sec))  
@@ -88,11 +99,14 @@ bool segmentsIntersection(P l1, P l2, P k1, P k2, P& sec)
     }  
     return false;  
 }  
+```
+
+```cpp
 bool isPointOnSegment(P const& a, P const& l1, P const& l2)  
 {  
     return collinear(a, l1, l2) && pibb(a, l1, l2);  
 }  
-
+```
 ```cpp
 P getCircleCenter(P A, P B, P C) {  
     if (isCollinear(A, B, C)) {  
@@ -107,6 +121,7 @@ P getCircleCenter(P A, P B, P C) {
 }
 ```
   
+```cpp
 bool issqare(P a, P b, P c, P d)  
 {  
     if (a == b || a == c || a == d || b == c || b == c || c == d)  
@@ -124,3 +139,4 @@ bool issqare(P a, P b, P c, P d)
        abs(ds[4] - ds[5]) < 1e-8;  
   
 }
+```

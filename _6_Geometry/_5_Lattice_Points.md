@@ -1,4 +1,4 @@
-
+```cpp
 long long getLaticeBoundryPoints(vector<P>& p)  
 {  
     long long boundry = 0;  
@@ -15,4 +15,4 @@ long long getLaticeInsidePoints(vector<P>& p)
 {  
     return (getAreat2(p) - getLaticeBoundryPoints(p)) / 2 + 1;  
 }  
-  
+```
