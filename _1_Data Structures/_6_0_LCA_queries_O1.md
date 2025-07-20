@@ -1,3 +1,4 @@
+```cpp
 const int N = 4e5 + 5, M = 20;
 vector<vector<int>>adj;
 int pw[N];
@@ -59,3 +60,4 @@ public:
         return lvl[u] + lvl[v] - 2 * lvl[lca(u, v)];
     }
 };
+```

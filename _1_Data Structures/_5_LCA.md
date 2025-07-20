@@ -1,3 +1,4 @@
+```cpp
 int const N = 1e5 + 5, M = 20;
 int dp[N][M + 1];
 int lvl[N], n;
@@ -42,3 +43,4 @@ int lca(int u, int v) {
 int shortestPath(int u, int v) {
     return lvl[u] + lvl[v] - 2 * lvl[lca(u, v)];
 }
+```

@@ -1,3 +1,4 @@
+```cpp
 int root = (int)sqrt(n + .0) + 1;
 vector<int> v(n), bucket(root);
 for (int i = 0; i < n; ++i)
@@ -19,3 +20,4 @@ while (q--) {
             sum += v[i];
     }
 }
+```

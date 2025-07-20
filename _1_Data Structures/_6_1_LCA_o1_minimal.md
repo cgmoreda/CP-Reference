@@ -1,3 +1,4 @@
+```cpp
   vector<int> dep(n), in(n), out(n), seq, pa(n, -1);
 
   auto dfs = [&](auto &&self, int u) -> void {
@@ -29,3 +30,4 @@
 	int h = __lg(b - a);
 	return pa[cmp(dp[h][a], dp[h][b - (1 << h)])];
   };
+```

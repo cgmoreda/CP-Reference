@@ -1,4 +1,4 @@
-
+```cpp
 const int N = 1e4 + 5;
 int sz[N], head[N];
 vector<int>heavy(N, -1);
@@ -185,3 +185,4 @@ void solve()
     }
 
 }
+```

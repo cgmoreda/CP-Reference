@@ -1,3 +1,4 @@
+```cpp
 int sqrtN;//use a constant value
 struct query {
     int l, r, qindx, block;
@@ -32,3 +33,4 @@ vector<int> MO() {
     return rt;
 
 }
+```

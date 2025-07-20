@@ -1,3 +1,4 @@
+```cpp
 struct fenwik_tree  
 {  
     int n;  
@@ -22,3 +23,4 @@ struct fenwik_tree
        while (p <= n)fen[p] += x, p += p & -p;  
     }  
 };
+```

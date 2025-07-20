@@ -1,3 +1,4 @@
+```cpp
 struct DSU {  
     vector<int> rank, parent, size;  
     vector<vector<int>> component;  
@@ -48,3 +49,4 @@ struct DSU {
         return size[find_set(v)];  
     }  
 };
+```
