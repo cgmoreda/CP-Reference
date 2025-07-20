@@ -1,5 +1,6 @@
 // 1 d ternary search
 
+```cpp
 bool can(int mid) {}
 int ternary_search(int l, int r)
 {
@@ -13,8 +14,9 @@ int ternary_search(int l, int r)
 	}
 	return ans;
 }
-
-// 2 d 
+```
+// 2d, beware if dealing with double remove the +-1
+```cpp
 double get(int row,int mid);
 double ans = 1e18;
 double ternary1(int row)
@@ -54,3 +56,4 @@ void ternary2()
     }
 
 }
+```

@@ -1,4 +1,4 @@
-cpp
+```cpp
 const int d=31;
 int basis[d];
 int sz;
@@ -14,3 +14,4 @@ bool insertVector(int mask) {
     }
     return false;
 }
+```

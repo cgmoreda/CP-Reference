@@ -1,3 +1,4 @@
+```cpp
 int LIS(const vector<int> &v) {  
     vector<int> lis(v.size());//put value less than zero if needed  
     int l = 0;  
@@ -9,3 +10,4 @@ int LIS(const vector<int> &v) {
     }  
     return l;  
 }
+```

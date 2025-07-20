@@ -1,7 +1,10 @@
+```cpp
 int n;
 const int N = 1e5+5;
 vector<int>v(N);
+```
 //عايز او يساوي شيل اليساوي 
+```cpp
 vector<int>next_mx()
 {
 	stack<int>st;
@@ -18,6 +21,9 @@ vector<int>next_mx()
 	reverse(all(suf));
 	return suf;
 }
+```
+
+```cpp
 vector<int>next_mn()
 {
 	stack<int>st;
@@ -34,6 +40,9 @@ vector<int>next_mn()
 	reverse(all(suf));
 	return suf;
 }
+```
+
+```cpp
 vector<int>prev_mx()
 {
 	vector<int>pre;
@@ -49,6 +58,9 @@ vector<int>prev_mx()
 	}
 	return pre;
 }
+```
+
+```cpp
 vector<int>prev_mn()
 {
 	vector<int>pre;
@@ -64,3 +76,4 @@ vector<int>prev_mn()
 	}
 	return pre;
 }
+```

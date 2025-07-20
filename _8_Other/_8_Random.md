@@ -1,3 +1,4 @@
+```cpp
 -#include <random>  
   
 static std::random_device rd;  
@@ -9,7 +10,9 @@ int randomgen(int x)
     int rndnum = dis(gen);  
     return rndnum;  
 }
+```
 
+```cpp
 #include <chrono>  
 #include <random>  
   
@@ -22,3 +25,4 @@ template<typename T>
 T Rand(T low, T high) {  
     return uniform_int_distribution<T>(low, high)(rng);  
 }
+```

@@ -1,3 +1,4 @@
+```cpp
 int n;
 vector<int>v1, v2;
 ll dp[20][2][2];
@@ -35,3 +36,4 @@ void solve()
 	v1.clear();
 	v2.clear();
 }
+```

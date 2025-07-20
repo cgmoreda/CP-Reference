@@ -1,3 +1,4 @@
+```cpp
 class comp {
     public:
        bool operator()(T a, T b){
@@ -9,3 +10,4 @@ class comp {
 };
 
 priority_queue<data_type, container, comparator> ds;
+```

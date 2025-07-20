@@ -1,4 +1,4 @@
-
+```cpp
 struct VectorHasher {
     int operator()(const vector<int> &V) const {
         int hash = V.size();
@@ -10,3 +10,4 @@ struct VectorHasher {
 };
 
 unordered_map<vector <int> , int, VectorHasher> used;
+```
