@@ -1,3 +1,15 @@
+Minimal
+```cpp
+
+struct DSU {  
+    std::vector<int> p;  
+    DSU(int n): p(n) { std::iota(p.begin(), p.end(), 0); }  
+    int find(int x) { return p[x]==x ? x : p[x]=find(p[x]); }  
+    void unite(int a, int b){ p[find(a)] = find(b); }  
+};
+
+```
+
 ```cpp
 struct DSU {  
     vector<int> rank, parent, size;  
