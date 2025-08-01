@@ -1,3 +1,4 @@
+```cpp
 //set NIL with defult value  
 template<typename T>  
 struct node {  
@@ -53,3 +54,4 @@ T query(node<T> *root, int r1, int r2, int c1, int c2, int x, int y) {
 }  
   
 node<T> *seg = new node<T>();
+```

@@ -1,3 +1,4 @@
+```cpp
 struct monotonicStack {  
     stack<pair<int, int>> stk;  
   
@@ -66,3 +67,4 @@ struct monotonicQueue {
   
     }  
 };
+```

@@ -1,4 +1,4 @@
-
+```cpp
 struct segtree {  
     segtree *left = nullptr, *right = nullptr;  
     int mx = 0;  
@@ -75,3 +75,4 @@ public:
   
 #undef MID  
 };
+```

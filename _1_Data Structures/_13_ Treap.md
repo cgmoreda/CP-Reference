@@ -1,3 +1,4 @@
+```cpp
 enum DIR
 {
 	L, R
@@ -194,3 +195,4 @@ class implicit_treap
 	}
 };
 implicit_treap<int, cartesian_tree> tr;
+```

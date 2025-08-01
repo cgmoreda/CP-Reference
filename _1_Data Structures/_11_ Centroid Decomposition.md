@@ -1,3 +1,4 @@
+```cpp
 class centroid_decomposition {  
     vector<bool> centroidMarked;  
     vector<int> size;  
@@ -90,3 +91,4 @@ public:
         root = decomposeTree(1);  
     }  
 };
+```

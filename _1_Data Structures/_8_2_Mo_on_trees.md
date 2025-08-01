@@ -1,3 +1,4 @@
+```cpp
 const int N = 1e5 + 5,lvls = 18;
 vector<vector<int>>v;
 int n,timer,root,q,l,r,seq[2*N],dp[N][lvls+1];
@@ -138,3 +139,4 @@ void solve()
     for (int i = 0;i < q;i++)change(i);
 }
 
+```

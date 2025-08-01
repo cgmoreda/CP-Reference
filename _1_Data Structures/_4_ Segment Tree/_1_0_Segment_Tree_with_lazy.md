@@ -1,3 +1,4 @@
+```cpp
 Segment tree lazy
 /*
 for efficient memory (2*n)
@@ -103,3 +104,4 @@ public:
 #undef RIGHT
 #undef MID
 };
+```

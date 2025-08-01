@@ -1,4 +1,5 @@
 // Reda Z
+```cpp
 struct segTree
 {
 	int lt, rt;
@@ -87,3 +88,4 @@ struct segTree
 };
 segTree segTree::pool[int(1e6)];
 int segTree::top = 0;
+```

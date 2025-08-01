@@ -1,4 +1,4 @@
-
+```cpp
 vector<int> *vec[maxn];
 int cnt[maxn];
 void dfs(int v, int p, bool keep){
@@ -50,3 +50,4 @@ void dfs(int v, int p, bool keep){
         for(int p = st[v]; p < ft[v]; p++)
 	    cnt[ col[ ver[p] ] ]--;
 }
+```

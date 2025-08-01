@@ -16,6 +16,14 @@ ld gda(P a, P b)
 }
 ```
 
+```cpp  
+// get's X given a line and y
+ld getX(P a, P b, ll y) {  
+    ld slope = (b.y - a.y) / (b.x - a.x);  
+    return a.x + (y - a.y) / slope;  
+}
+```
+
 ```cpp
 ld linePointDis(P l1, P l2, P p)  
 {  

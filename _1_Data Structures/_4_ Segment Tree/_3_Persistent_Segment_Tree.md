@@ -1,4 +1,4 @@
-
+```cpp
 struct segtree
 {
 	static segtree* sentinel;
@@ -110,3 +110,4 @@ class persistent_segment_tree
 
 #undef MID
 };
+```
