@@ -7,10 +7,7 @@
 	#define ll long long  
 	#define endl "\n"  
 	  
-	void solve()  
-	{  
-	  
-	}  
+	void solve(){}  
 	  
 	int  
 	main()  
