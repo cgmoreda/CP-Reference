@@ -23,3 +23,35 @@ void mobius() {
         }
 }
 ```
+
+```cpp
+  
+const int N = 4e7 + 10;  
+char mu[N];  
+vector<bool> comp(N);  
+  
+void mobius_linear() {  
+    vector<int> ps;  
+    ps.reserve(N / 10);  
+    mu[1] = 1;  
+    for (int i = 2; i < N; ++i) mu[i] = 0; // optional, will be set  
+  
+    for (int i = 2; i < N; ++i) {  
+        if (!comp[i]) {  
+            ps.push_back(i);  
+            mu[i] = -1;  
+        }  
+        for (int p: ps) {  
+            long long v = 1LL * i * p;  
+            if (v >= N) break;  
+            comp[v] = true;  
+            if (i % p == 0) {  
+                mu[v] = 0;  
+                break;  
+            } // square divides  
+            mu[v] = -mu[i];  
+        }  
+    }  
+}
+
+```
