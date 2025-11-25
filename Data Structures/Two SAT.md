@@ -52,6 +52,7 @@ void add_xor_edge(int a, int b) {
     addEdge(Not(a), Not(b));  
     addEdge(a, b);  
 }  
+// this should be fixed
 bool _2SAT(vector<int>& value) {  
     SCC();  
     for(int i=1; i<=n; i++)  
@@ -67,4 +68,17 @@ bool _2SAT(vector<int>& value) {
        value[i]=assign[compId[i]];  
     return true;  
 }
+// to this but needs testing 
+bool _2SAT(vector<int> &value) {  
+    SCC();  
+    for (int i = 1; i <= n; i++)  
+        if (compId[i] == compId[Not(i)]) return false;  
+  
+    value.assign(n + 1, 0);  
+    // Tarjan gives components in reverse topological order if you index by discovery  
+    // Using the standard rule:    for (int i = 1; i <= n; i++)  
+        value[i] = (compId[i] > compId[Not(i)]);  
+    return true;  
+}
+
 ```

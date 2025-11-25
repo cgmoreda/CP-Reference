@@ -13,7 +13,7 @@ string misereNim(const vector<int>& heaps) {
     if (moreThanOne == 0) {
         // All heaps are 1
         return (ones % 2 == 0 ? "Win" : "Lose");
-    } else if (moreThanOne == 1) {
+    } else if (moreThanOne == 1) { // remove this condition @saad
         // One heap > 1
         return (ones % 2 == 1 ? "Win" : "Lose");
     } else {
