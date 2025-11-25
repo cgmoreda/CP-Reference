@@ -8,6 +8,7 @@ bool collinear(P a, P b, P c)
 
 **get acute directed angle from a to b**  
 ```cpp
+// tested
 ld gda(P a, P b)  
 {  
     ld ang = abs(angle(a) - angle(b));  
@@ -25,6 +26,7 @@ ld getX(P a, P b, ll y) {
 ```
 
 ```cpp
+//tested
 ld linePointDis(P l1, P l2, P p)  
 {  
     ot area = abs(vec(p, l1) ^ vec(p, l2));  
@@ -34,17 +36,15 @@ ld linePointDis(P l1, P l2, P p)
 ```
 
 ```cpp
-ld segmentPointDis(P l1, P l2, P p)  
-{  
-    P perp = vec(l1, l2);  
-    perp.x *= -1;  
-    perp = p + perp;  
-    ld s1 = vec(p, perp) ^ vec(p, l1);  
-    ld s2 = vec(p, perp) ^ vec(p, l2);  
-    if ((s1 < 0 && s2 < 0) || (s1 > 0 && s2 > 0))  
-       return min(len(vec(p, l1)), len(vec(p, l2)));  
-    return linePointDis(l1, l2, p);  
-}  
+  
+ld segmentPointDis(P a, P b, P p){  
+    P ab = vec(a,b), ap = vec(a,p);  
+    ld ab2 = ab*ab; // dot  
+    if (ab2 < eps) return len(vec(p,a)); // degenerate segment  
+    ld t = max<ld>(0, min<ld>(1, (ap*ab)/ab2));  
+    P proj = { a.x + ab.x*t, a.y + ab.y*t };  
+    return len(vec(p, proj));  
+}
 ```
 
 ```cpp

@@ -1,6 +1,7 @@
 ```cpp
   
-struct MCMF //0-based  {  
+struct MCMF //0-based  
+{  
     struct edge  
     {  
        int from, to, cost, cap, flow, backEdge;  

@@ -15,6 +15,7 @@ ld triArea(ot A, ot B, ot C){
 //(1/2) |x1(y2 − y3) + x2(y3 − y1) + x3(y1 − y2)|  
 
 ```cpp 
+// tested
 ld areaOfPolygon(vector<P> p){  
     ot area = 0;  
     for(int i = 1; i < p.size() - 1; i++)  

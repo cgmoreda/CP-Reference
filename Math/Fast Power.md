@@ -19,3 +19,11 @@ ll fpow(ll x, ll k, ll mod) {
 	return res;
 }
 ```
+
+```cpp
+// minimal 
+ll fast(ll b, ll e){  
+    if(!e)return 1;  
+    return fast(b * b % mod, e >> 1) * ((e&1) ? b : 1) % mod;  
+}
+```

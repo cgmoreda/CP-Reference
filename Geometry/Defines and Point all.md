@@ -61,5 +61,25 @@ struct P
        return { x * cos_theta - y * sin_theta, x * sin_theta + y * cos_theta };  
     }  
 };
+  
+struct Line {  
+    ld a, b, c;  
+};  
+  
+Line lineFromVector(P p, P v) {  
+    Line L;  
+    L.a = v.y;  
+    L.b = -v.x;  
+    L.c = v.x * p.y - v.y * p.x;  
+  
+    ld norm = sqrt(L.a * L.a + L.b * L.b);  
+    if (norm > 1e-12) L.a /= norm, L.b /= norm, L.c /= norm;  
+  
+    // (optional) make a unique orientation  
+    if (L.a < 0 || (abs(L.a) < 1e-12 && L.b < 0))  
+        L.a = -L.a, L.b = -L.b, L.c = -L.c;  
+  
+    return L;  
+}
 
 ```
