@@ -148,3 +148,17 @@ bool issqare(P a, P b, P c, P d)
   
 }
 ```
+
+```cpp
+P reflectPoint(P a, P b, P p) {
+    P ab = vec(a, b), ap = vec(a, p);
+    ld ab2 = ab * ab; // dot(ab, ab)
+    if (ab2 < eps) return p; // degenerate line -> nothing to reflect
+    // projection parameter on the INFINITE line (no clamp!)
+    ld t = (ap * ab) / ab2;
+    P proj = {a.x + ab.x * t, a.y + ab.y * t};
+    // reflected point: proj + (proj - p)
+    P r = {2 * proj.x - p.x, 2 * proj.y - p.y};
+    return r;
+}
+```

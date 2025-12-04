@@ -62,6 +62,9 @@ struct P
     }  
 };
   
+```
+
+```cpp
 struct Line {  
     ld a, b, c;  
 };  
