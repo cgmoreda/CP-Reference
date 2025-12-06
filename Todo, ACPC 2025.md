@@ -39,9 +39,13 @@ Math{
 }
 Strings{
  - review: 
- - clean up: 
+ - clean up: z-function
  - test: 
  - add:
+	 - aho no map
+	 - hash on trees
+	 - kareem hashing + rolling 
+	 - helper functions for suffix automaton (standard stuff)
 }
 Geometry{
  - review: 
