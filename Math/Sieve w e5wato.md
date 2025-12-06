@@ -1,41 +1,3 @@
-```cpp
-//sieve--> get primes from 0 to N
-
-const int N = 1e6 + 5;
-vector <int> primes;
-bool composite[N];
-void sieve()
-{
-	composite[0] = composite[1] = 1;
-	for (int i = 2; i < N; ++i)
-	{
-		if (composite[i])continue;
-		primes.push_back(i);
-		for (int j = i+i; j < N; j += i)
-			composite[j] = true;
-	}
-}
-```
-
-linear seive -->get primes from 0 to N 
-```cpp
-const int N = 1e6;
-vector <int> primes;
-bool composite[N];
-void sieve() 
-{
-	composite[0] = composite[1] = 1;
-	for (int i = 2; i < N; ++i) 
-	{
-		if (!composite[i])primes.push_back(i);
-		for (int j = 0; j < primes.size() && i * primes[j] < N; ++j)
-		{
-			composite[i * primes[j]] = 1;
-			if (i % primes[j] == 0) break;
-		}
-	}
-}
-```
 
 get prime factors using sieve (less than sqrt(n)) متنساش كود سبف قبلها
 ```cpp
@@ -49,20 +11,6 @@ vector<int> prime_fact(int n)
 	}
 	if (n > 1)temp.push_back(n);
 	return temp;
-}
-```
-
-get divisors for all numbers from 1 to N
-```cpp
-const int N = 1e5+5;
-vector<vector<int>>divisors(N);
-void generate_divisors() 
-{
-	for (int i = 1;i < N;i++)
-	{
-		for(int j=i;j<N;j+=i)
-			divisors[j].push_back(i);
-	}
 }
 ```
 
