@@ -14,8 +14,8 @@ DS{
 	 - good 2 sat
 }
 Flows{
- - review: 
- - clean up: 
+ - review:  add complexity to each files
+ - clean up:  scalling dinic? 
  - test: 
  - add:
 }
@@ -52,4 +52,10 @@ Geometry{
  - clean up: 
  - test: 
  - add:
+}
+misc{
+ - review: misere nim
+ - clean up: 
+ - test: 
+ - add: xor basis build 
 }
