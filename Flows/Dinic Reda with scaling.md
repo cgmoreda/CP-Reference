@@ -1,3 +1,10 @@
+Dinic with capacity scaling runs in:
+O(V * E * log C)
+where
+* V = number of vertices
+* E = number of edges
+* C = maximum edge capacity.
+
 ```cpp
 const ll inf = 1LL << 61;
 
