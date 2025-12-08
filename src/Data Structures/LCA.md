@@ -1,46 +1,47 @@
 ```cpp
-int const N = 1e5 + 5, M = 20;
-int dp[N][M + 1];
-int lvl[N], n;
-vector <vector<int>> adj;
- 
-void dfs(int u, int par) {
-    dp[u][0] = par;
-    for (auto i : adj[u]) {
-        if (i != par) {
-            lvl[i] = lvl[u] + 1;
-            dfs(i, u);
+const int LG = 20;
+const int N = 1e6 + 10;
+int up[N][LG],lvl[N];
+vector<vector<int>>G;
+class LCA{
+public:
+    LCA(){
+        dfs(1,0);
+    }
+    void dfs(int u,int p){
+        up[u][0] = p;
+        for(int j = 1;j<LG;j++){
+            up[u][j] = up[up[u][j-1]][j-1];
+        }
+        for(auto&v : G[u]){
+            if(v == p)continue;
+            lvl[v] = lvl[u] + 1;
+            dfs(v,u);
         }
     }
-}
- 
-void build() {
-    dfs(1, -1);
-    for (int i = 1; i <= M; i++) {
-        for (int j = 1; j <= n; j++) {
-            int u = dp[j][i - 1];
-            if (u == -1)dp[j][i] = -1;
-            else dp[j][i] = dp[u][i - 1];
+    int kthAncestor(int u,int k){
+        for(int j = LG-1;j>=0;j--){
+            if(k >> j &1){
+                u = up[u][j];
+            }
         }
+        return u;
     }
-}
- 
-int lca(int u, int v) {
-    if (lvl[u] > lvl[v])swap(u, v);
-    for (int i = M; i >= 0; i--) {
-        if (lvl[v] - (1 << i) >= lvl[u])
-            v = dp[v][i];
+    int lca(int u,int v){
+        if(lvl[u] < lvl[v])swap(u,v);
+        int d = lvl[u] - lvl[v];
+        u = kthAncestor(u,d);
+        if(u == v)return u;
+        for(int j = LG-1;j>=0;j--){
+            if(up[u][j] !=up[v][j]){
+                u = up[u][j];
+                v = up[v][j];
+            }
+        }
+        return up[u][0];
     }
-    if (u == v)return v;
-    for (int i = M; i >= 0; i--) {
-        int cu = dp[u][i], cv = dp[v][i];  
-		if (min(cu, cv) != -1 && cu != cv)  
-		    u = cu, v = cv;
+    int dist(int u,int v){
+        return lvl[u] + lvl[v] - 2*lvl[lca(u,v)];
     }
-    return dp[u][0];
-}
- 
-int shortestPath(int u, int v) {
-    return lvl[u] + lvl[v] - 2 * lvl[lca(u, v)];
-}
+};
 ```
