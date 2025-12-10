@@ -51,7 +51,7 @@ Geometry{
  - review: 
  - clean up: 
  - test: 
- - add:
+ - add: mec
 }
 misc{
  - review: misere nim
