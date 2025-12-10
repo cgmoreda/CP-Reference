@@ -1,4 +1,7 @@
 .obsidian/
 final.md
-.Latex/
-Latex/
+Latex/_minted/
+latex/_minted-main/
+Latex/**/_minted/
+Latex/**/_minted-main/
+Latex/**/_minted*/

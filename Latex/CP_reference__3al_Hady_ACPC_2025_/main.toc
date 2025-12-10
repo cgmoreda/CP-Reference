@@ -1,0 +1,123 @@
+\contentsline {section}{\numberline {1}Template}{4}{section.1}%
+\contentsline {section}{\numberline {2}Data Structures}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Centroid Decomposition}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}DSU}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}EERTREE}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Fenwick 2d}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Fenwick}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}LCA o1 minimal}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}LCA}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Mo (Saad)}{12}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Mo Algorithm}{13}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Mo on trees}{14}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}MonoQueue Anas}{17}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}MonoQueue}{18}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}Ordered Set}{19}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}Saad HLD}{19}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}Sack}{22}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}SparseTable}{23}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}Sqrt Decomposition}{24}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}Treap}{25}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}Two SAT}{28}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}TwoSAT F}{30}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}Segment Tree}{31}{subsection.2.21}%
+\contentsline {subsubsection}{\numberline {2.21.1}Extended Segment Tree}{31}{subsubsection.2.21.1}%
+\contentsline {subsubsection}{\numberline {2.21.2}KST Lazy}{33}{subsubsection.2.21.2}%
+\contentsline {subsubsection}{\numberline {2.21.3}KST Simple}{34}{subsubsection.2.21.3}%
+\contentsline {subsubsection}{\numberline {2.21.4}Persistant Basic}{36}{subsubsection.2.21.4}%
+\contentsline {subsubsection}{\numberline {2.21.5}Persistent Segment Tree (Anas)}{37}{subsubsection.2.21.5}%
+\contentsline {subsubsection}{\numberline {2.21.6}PST Kareem}{37}{subsubsection.2.21.6}%
+\contentsline {subsubsection}{\numberline {2.21.7}PST Path Kareem}{38}{subsubsection.2.21.7}%
+\contentsline {subsubsection}{\numberline {2.21.8}RST Lazy}{40}{subsubsection.2.21.8}%
+\contentsline {subsubsection}{\numberline {2.21.9}RST simple}{41}{subsubsection.2.21.9}%
+\contentsline {subsubsection}{\numberline {2.21.10}Segment Tree with lazy}{42}{subsubsection.2.21.10}%
+\contentsline {subsubsection}{\numberline {2.21.11}SparseSegmentTree(setBinary-sum Range)}{44}{subsubsection.2.21.11}%
+\contentsline {subsubsection}{\numberline {2.21.12}SparseSegmentTree(xor-sum Range)}{46}{subsubsection.2.21.12}%
+\contentsline {section}{\numberline {3}Flows}{47}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dinic Reda get min cut edges}{47}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Dinic Reda with scaling}{47}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Dinic Reda}{49}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Edmonds Karp}{51}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Hopcroft Karp}{52}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Hungarian}{53}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Max Bipartite Matching}{55}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}MCMF}{56}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Push Relable}{58}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Geometry}{60}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Areas}{60}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Basic Funcs}{60}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}ConvexHull}{63}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}CosineRule}{64}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Defines 3D}{64}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Defines and Point all}{65}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Defines and Point simple}{66}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Helpers 3D}{67}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Intersections}{69}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Lattice Points}{70}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Polygon Centroid}{70}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}some Properties of Regular polygons}{70}{subsection.4.12}%
+\contentsline {section}{\numberline {5}Graph}{71}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Articulation Points Kareem}{71}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Articulation Points Reda}{71}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Bellmanford}{72}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Bridges Kareem}{73}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Bridges Reda}{74}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Euler tour}{75}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Tarjan SCC Reda}{75}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Math}{76}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Combinatorics}{76}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Equations}{77}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Fast Power}{78}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Gauss Xor}{78}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Gauss}{80}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Linear Diophantine Equation CRT}{84}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Lucus Theorem}{84}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Matrix power}{85}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}MillerRabin}{86}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Mobius Function}{87}{subsection.6.10}%
+\contentsline {subsection}{\numberline {6.11}NCR Preprocessing}{88}{subsection.6.11}%
+\contentsline {subsection}{\numberline {6.12}Phi}{88}{subsection.6.12}%
+\contentsline {subsection}{\numberline {6.13}Sieve w e5wato}{89}{subsection.6.13}%
+\contentsline {subsection}{\numberline {6.14}SieveUpTo1e9}{90}{subsection.6.14}%
+\contentsline {subsection}{\numberline {6.15}SumRangeDivisors}{92}{subsection.6.15}%
+\contentsline {subsection}{\numberline {6.16}FFT w e5wato}{92}{subsection.6.16}%
+\contentsline {subsubsection}{\numberline {6.16.1}FFT Iterative}{92}{subsubsection.6.16.1}%
+\contentsline {subsubsection}{\numberline {6.16.2}FFT MOD}{93}{subsubsection.6.16.2}%
+\contentsline {subsubsection}{\numberline {6.16.3}FFT string Matching}{94}{subsubsection.6.16.3}%
+\contentsline {subsubsection}{\numberline {6.16.4}FFT}{96}{subsubsection.6.16.4}%
+\contentsline {subsubsection}{\numberline {6.16.5}FWHT}{97}{subsubsection.6.16.5}%
+\contentsline {subsubsection}{\numberline {6.16.6}NTT Time-Shift}{98}{subsubsection.6.16.6}%
+\contentsline {subsubsection}{\numberline {6.16.7}NTT}{101}{subsubsection.6.16.7}%
+\contentsline {section}{\numberline {7}Misc}{102}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Base Conversion}{102}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}BuiltIn functions}{103}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}CheckTime}{104}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}CompareFunction for ds}{104}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}DP digits}{104}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}DP SOS Kareem}{105}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Generate All Submasks}{106}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Li-Chao}{106}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}LIS Onlogn}{107}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}misereNim}{107}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Next element}{107}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Random}{109}{subsection.7.12}%
+\contentsline {subsection}{\numberline {7.13}Ternary search}{109}{subsection.7.13}%
+\contentsline {subsection}{\numberline {7.14}VectorHasher}{110}{subsection.7.14}%
+\contentsline {subsection}{\numberline {7.15}XOR basis Range}{110}{subsection.7.15}%
+\contentsline {subsection}{\numberline {7.16}XOR basis}{112}{subsection.7.16}%
+\contentsline {subsection}{\numberline {7.17}Xor from 1 to n}{112}{subsection.7.17}%
+\contentsline {section}{\numberline {8}Problem codes}{112}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Lca Persistant code problem}{112}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Line Sweep Mostafa Saad}{116}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Strings}{120}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Aho Corasick}{120}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Anas Suffix Array}{121}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Hashing Kareem}{123}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Hashing}{124}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}KMP}{125}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Manacher}{126}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Saad Trie}{126}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Suffix Automation}{128}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}Trie 1d vector}{130}{subsection.9.9}%
+\contentsline {subsection}{\numberline {9.10}Trie pointers}{131}{subsection.9.10}%
+\contentsline {subsection}{\numberline {9.11}Z algorithm}{131}{subsection.9.11}%
