@@ -1,53 +1,54 @@
 ```cpp
-vector<int> *vec[maxn];
-int cnt[maxn];
-void dfs(int v, int p, bool keep){
+struct dsuOnTrees {
+  dsuOnTrees(int n, vector<vector<int>> &adj) : n(n + 1), adj(adj) {
+    cnt = size = st = vector<int>(n + 1);
+    ver.push_back(0);
+    timer = 1;
+    pre(1, -1);
+    dfs(1, -1, 0);
+  }
+  int n, timer;
+  vector<int> cnt, size, st, ver;
+  vector<vector<int>> adj;
+  void pre(int node, int par) {
+    size[node] = 1;
+    st[node] = timer++;
+    ver.push_back(node);
+    for (auto it : adj[node]) {
+      if (it == par)
+        continue;
+      pre(it, node);
+      size[node] += size[it];
+    }
+  }
+  void dfs(int v, int p, bool keep) {
     int mx = -1, bigChild = -1;
-    for(auto u : g[v])
-       if(u != p && sz[u] > mx)
-           mx = sz[u], bigChild = u;
-    for(auto u : g[v])
-       if(u != p && u != bigChild)
-           dfs(u, v, 0);
-    if(bigChild != -1)
-        dfs(bigChild, v, 1), vec[v] = vec[bigChild];
-    else
-        vec[v] = new vector<int> ();
-    vec[v]->push_back(v);
-    cnt[ col[v] ]++;
-    for(auto u : g[v])
-       if(u != p && u != bigChild)
-           for(auto x : *vec[u]){
-               cnt[ col[x] ]++;
-               vec[v] -> push_back(x);
-           }
-    //now cnt[c] is the number of vertices in subtree of vertex v that has color c.
-    // note that in this step *vec[v] contains all of the subtree of vertex v.
-    if(keep == 0)
-        for(auto u : *vec[v])
-            cnt[ col[u] ]--;
-}
+    for (auto u : adj[v])
+      if (u != p && size[u] > mx)
+        mx = size[u], bigChild = u;
+    for (auto u : adj[v])
+      if (u != p && u != bigChild)
+        dfs(u, v, 0); // run a dfs on small childs and clear them from cnt
 
+    if (bigChild != -1)
+      dfs(bigChild, v, 1); // bigChild marked as big and not cleared from cnt
 
-int cnt[maxn];
-void dfs(int v, int p, bool keep){
-    int mx = -1, bigChild = -1;
-    for(auto u : g[v])
-       if(u != p && sz[u] > mx)
-          mx = sz[u], bigChild = u;
-    for(auto u : g[v])
-        if(u != p && u != bigChild)
-            dfs(u, v, 0);  // run a dfs on small childs and clear them from cnt
-    if(bigChild != -1)
-        dfs(bigChild, v, 1);  // bigChild marked as big and not cleared from cnt
-    for(auto u : g[v])
-	if(u != p && u != bigChild)
-	    for(int p = st[u]; p < ft[u]; p++)
-		cnt[ col[ ver[p] ] ]++;
-    cnt[ col[v] ]++;
-    //now cnt[c] is the number of vertices in subtree of vertex v that has color c. You can answer the queries easily.
-    if(keep == 0)
-        for(int p = st[v]; p < ft[v]; p++)
-	    cnt[ col[ ver[p] ] ]--;
-}
+    for (auto u : adj[v])
+      if (u != p && u != bigChild)
+        for (int p = st[u]; p < st[u] + size[u]; p++) {
+          int node = ver[p];
+          // calc - merge between small subtrees and bigchild subtree
+          // insert into global datastructure
+        }
+    // insert v into to global datastructure
+    // now subtree v is inserted into global data structure
+
+    if (keep == 0)
+      for (int p = st[v]; p < st[v] + size[v]; p++)
+        for (auto it : ask[ver[p]]) {
+          int node = ver[p];
+          // remove from global datastructure
+        }
+  }
+};
 ```
