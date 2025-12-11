@@ -36,6 +36,7 @@ class centroid_decomposition {
       // note: root and centroid_of_subtree probably not have a direct edge in  
       // adj      // centroidTree[root].push_back(centroid_of_subtree);      // centroidParent[centroid_of_subtree] = root;    }  
     return root;  
+  }
   }  
   
   void calc(int node, int par) {  
