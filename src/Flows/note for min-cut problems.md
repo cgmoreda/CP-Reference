@@ -1,0 +1,9 @@
+ "Projects and Instruments". In this problem, we have a set of projects we can do, each with its cost, and a set of instruments (each also having some cost). Each project depends on some instruments, and each instrument can be used any number of times. We have to choose a subset of projects and a subset of instruments so that if a project is chosen, all instruments that this project depends on are also chosen, and we have to maximize the difference between the sum of costs of chosen projects and the sum of costs of chosen instruments.
+
+The problem about projects and instruments can be solved with the following flow network:
+
+- for each project, create a vertex and add a directed edge from the source to this vertex with capacity equal to the cost of this project;
+- for each instrument, create a vertex and add a directed edge from this vertex to the sink with capacity equal to the cost of this instrument;
+- for each project, create edges with infinite capacity from the vertex denoting this project to all vertices denoting the required instruments for this project.
+
+Let's analyze an (S,T) cut between the source and the sink in this vertex, and construct some answer based on this cut as follows: if a project-vertex belongs to S, then we take this project; if an instrument-vertex belongs to S, then we take this instrument; all other projects and instruments are discarded. If an edge between some project and some instrument is cut, then it means that the answer is incorrect (we try to take a project requiring some instrument we don't take), and the cut value is infinite. Otherwise, the value of the cut is equal to the total cost of taken instruments and discarded projects, and we need to minimize it. So the minimum cut in this network denotes the best answer.
