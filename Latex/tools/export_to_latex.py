@@ -89,7 +89,7 @@ def main() -> None:
         r"\documentclass[14pt]{extarticle}",
         r"\usepackage{minted}",
         r"\usepackage[margin=0.8in]{geometry}",
-        r"\usepackage{hyperref}",
+        r"\usepackage[hidelinks]{hyperref}",
         r"\usepackage{titlesec}",
         r"\usepackage{enumitem}",
         r"\linespread{0.9}",
