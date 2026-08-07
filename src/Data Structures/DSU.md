@@ -62,3 +62,31 @@ struct DSU {
     }  
 };
 ```
+
+```cpp
+struct DSU {
+    vector<int> parent, size;
+    int comp;
+
+    DSU(int n) {
+        parent = size = vector<int>(n + 1,1);
+        comp = n;
+        iota(parent.begin(),parent.end(),0);
+    }
+
+    int Leader(int i) {
+        if (parent[i] == i) return i;
+        return parent[i] = Leader(parent[i]);
+    }
+
+    bool Merge(int u, int v) {
+        u = Leader(u);v = Leader(v);
+        if (u == v) return false;
+        comp--;
+        if (size[u] < size[v])swap(u, v);
+        parent[v] = u;
+        size[u] += size[v];
+        return true;
+    }
+};
+```
