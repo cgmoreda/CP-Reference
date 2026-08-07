@@ -1,23 +1,29 @@
 ```cpp
 //undirected
-vector<int>adj[N];
-int dfn[N],low[N];
+vector<vector<int>>G;
+vector<int>dfn,low;
+int timer;
 set<int>points;
-int cnt;
-void articulationPoint(int node, int parent){
-    dfn[node] = low[node] = ++cnt;
+void articulationPoint(int u, int p){
+    dfn[u] = low[u] = ++timer;
     int childs = 0;
-    for(auto&ch : adj[node]){
-        if(ch == parent)continue;
-        if(dfn[ch] == -1){
-            articulationPoint(ch, node);
-            low[node] = min(low[node],low[ch]);
-            if(dfn[node]<=low[ch]&& ~parent)points.insert(node);
+    for(auto&v : G[u]){
+        if(v == p)continue;
+        if(dfn[v] == -1){
+            articulationPoint(v, u);
+            low[u] = min(low[u],low[v]);
+            if(dfn[u]<=low[v]&& ~p)points.insert(u);
             childs++;
         }else{
-            low[node] = min(low[node],dfn[ch]);
+            low[u] = min(low[u],dfn[v]);
         }
     }
-    if(childs >1 && parent == -1)points.insert(node);
+    if(childs >1 && p == -1)points.insert(u);
+}
+void init(int n){
+    G = vector<vector<int>>(n + 1);
+    dfn = low = vector<int>(n + 1,-1);
+    points.clear();
+    timer = 0;
 }
 ```

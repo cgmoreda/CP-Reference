@@ -1,20 +1,26 @@
 ```cpp
 //undirected
-vector<int>adj[N];
-int dfn[N],low[N],timer;
-void bridges(int node,int parent){
-    dfn[node] = low[node] = ++timer;
-    for(auto&ch : adj[node]){
-        if(ch == parent)continue;
-        if(dfn[ch] == -1){
-            bridges(ch,node);
-            low[node] = min(low[node],low[ch]);
-            if(dfn[node] < low[ch]){
+vector<vector<int>>G;
+vector<int>dfn,low;
+int timer;
+void bridges(int u,int p){
+    dfn[u] = low[u] = ++timer;
+    for(auto&v : G[u]){
+        if(v == p)continue;
+        if(dfn[v] == -1){
+            bridges(v,u);
+            low[u] = min(low[u],low[v]);
+            if(dfn[u] < low[v]){
                 // is_bridge
             }
         }else{
-            low[node] = min(low[node],dfn[ch]);
+            low[u] = min(low[u],dfn[v]);
         }
     }
+}
+void init(int n){
+    G = vector<vector<int>>(n + 1);
+    dfn = low = vector<int>(n + 1,-1);
+    timer = 0;
 }
 ```

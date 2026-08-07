@@ -26,3 +26,17 @@ T Rand(T low, T high) {
     return uniform_int_distribution<T>(low, high)(rng);  
 }
 ```
+
+```cpp
+//shuffle array 
+void solve() {
+    int n;
+    cin >> n;
+    vector<int> ans(n);
+    for (int i = 0; i < n; i++) {
+        ans[i] = i + 1;
+    }
+    shuffle(ans.begin(), ans.end(), rng);
+    //ans is shuffled
+}
+```
